@@ -471,6 +471,16 @@
 					</div>
 				</div>
 			</section>
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+                (function() {
+                    var d = document, s = d.createElement('script');
+                    s.src = '//yisvpjh.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			<footer>
 				<div class="footer-bg parallax" data-background-image="/img/main/main1.jpg" data-parallax-factor=".8"></div>
 				<div class="heart">
