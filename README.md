@@ -3,7 +3,8 @@
 > 친구를 위한 웨딩 홈페이지
 
 - Spring Boot
-- Angularjs2(사용 예정)
+- React or Angularjs2(사용 예정)
+- AWS 적극 활용해보기(EC2, S3, RDS)
 
 ---
 
