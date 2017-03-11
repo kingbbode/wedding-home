@@ -199,7 +199,7 @@
 								<p>신도림역에서 뭐 이어져있고, 몇번 출구쪽으로 오세용.</p>
 							</div>
 							<div class="cta">
-								<a href="#" class="btn btn-primary">지도보기</a>
+								<a href="http://place.map.daum.net/12143353" target="_blank" class="btn btn-primary">지도보기</a>
 							</div>
 						</div>
 					</li>
@@ -208,14 +208,11 @@
 						<div class="event-details animation-chain" data-animation="fadeInUp">
 							<h3>Wedding Dinner</h3>
 							<ul class="event-info">
-								<li><span class="lnr lnr-map-marker"></span>서울 구로구 경인로 610 신도림S컨벤션웨딩홀 8F 토다이</li>
+								<li><span class="lnr lnr-map-marker"></span>8F 토다이</li>
 								<li><span class="lnr lnr-clock"></span>10:30AM - 12:00AM, June 24, 2017</li>
 							</ul>
 							<div class="desc">
 								<p>여기 토다이 짱 좋음. 나 초밥 진짜 엄청 좋아함. 땡큐땡큐</p>
-							</div>
-							<div class="cta">
-								<a href="#" class="btn btn-primary">오시는 길</a>
 							</div>
 						</div>
 					</li>
