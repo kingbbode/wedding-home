@@ -1,6 +1,7 @@
 package com.kingbbode.controller;
 
-import com.kingbbode.aws.UploadObjectSingleOperation;
+import com.amazonaws.services.s3.model.PutObjectResult;
+import com.kingbbode.aws.S3Service;
 import com.kingbbode.model.Gallery;
 import com.kingbbode.repository.GalleryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,7 @@ import java.util.List;
 public class CmsController {
 
     @Autowired
-    private UploadObjectSingleOperation uploadObjectSingleOperation;
+    private S3Service s3Service;
 
     @Autowired
     private GalleryRepository galleryRepository;
@@ -32,8 +33,8 @@ public class CmsController {
 
     @PostMapping("/image")
     @ResponseBody
-    public ResponseEntity<String> upload(@RequestParam("file") MultipartFile file){
-        return uploadObjectSingleOperation.send(file)? new ResponseEntity<>("성공", HttpStatus.OK) : new ResponseEntity<>("실패", HttpStatus.BAD_REQUEST);
+    public List<PutObjectResult> upload(@RequestParam("file") MultipartFile[] multipartFiles){
+        return s3Service.upload(multipartFiles);
     }
 
     @GetMapping("/gallery")
