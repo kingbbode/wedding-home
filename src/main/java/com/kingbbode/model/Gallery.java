@@ -9,7 +9,7 @@ import javax.persistence.*;
  */
 @Entity
 public class Gallery {
-    @Column
+    @Id
     @GeneratedValue
     private Long idx;
 
@@ -17,7 +17,7 @@ public class Gallery {
     private String title;
 
     @Column
-    private String subTitle;
+    private String subtitle;
 
     @Column
     private String content;
@@ -28,4 +28,28 @@ public class Gallery {
     @Column
     @Enumerated(EnumType.STRING)
     private GalleryType type;
+
+    public Long getIdx() {
+        return idx;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getSubtitle() {
+        return subtitle;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public String getImagesJson() {
+        return imagesJson;
+    }
+
+    public GalleryType getType() {
+        return type;
+    }
 }
