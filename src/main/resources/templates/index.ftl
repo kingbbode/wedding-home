@@ -9,17 +9,17 @@
 				<title>YISvPJH</title>
 				<meta name="description" content="">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
-				<link rel="stylesheet" href="/css/bootstrap.min.css">
+				<link rel="stylesheet" href="/bigday/css/bootstrap.min.css">
 				<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700%7CFira+Sans:400,400i,700,700i&subset=latin-ext" rel="stylesheet">
-				<link rel="stylesheet" href="/fonts/linearicons/web-font/style.css">
-				<link rel="stylesheet" href="/fonts/et-line-font/style.css">
-				<link rel="stylesheet" href="/fonts/font-awesome-4.6.3/css/font-awesome.min.css">
-				<link rel="stylesheet" href="/css/animate.css">
-				<link rel="stylesheet" href="/css/magnific-popup.css">
-				<link rel="stylesheet" href="/js/vendor/owl.carousel.2.1.6/assets/owl.carousel.min.css">
-				<link rel="stylesheet" href="/js/vendor/owl.carousel.2.1.6/assets/owl.theme.default.min.css">
-				<link rel="stylesheet" href="/css/big-day.css">
-				<script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+				<link rel="stylesheet" href="/bigday/fonts/linearicons/web-font/style.css">
+				<link rel="stylesheet" href="/bigday/fonts/et-line-font/style.css">
+				<link rel="stylesheet" href="/bigday/fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+				<link rel="stylesheet" href="/bigday/css/animate.css">
+				<link rel="stylesheet" href="/bigday/css/magnific-popup.css">
+				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.carousel.min.css">
+				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.theme.default.min.css">
+				<link rel="stylesheet" href="/bigday/css/big-day.css">
+				<script src="/bigday/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 		</head>
 		<body>
 			<div class="preloader"></div>
@@ -228,19 +228,19 @@
 					<div class="row animation-chain" data-animation="fadeInUp">
 						<div class="col-sm-3">
 							<div class="profile-pic">
-								<img class="img-as-bg" src="/img/placeholders/800x800.png" alt="">
+								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
 							</div>
 							<h4>아버지</h4>
 						</div>
 						<div class="col-sm-3">
 							<div class="profile-pic">
-								<img class="img-as-bg" src="/img/placeholders/800x800.png" alt="">
+								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
 							</div>
 							<h4>어머니</h4>
 						</div>
 						<div class="col-sm-3">
 							<div class="profile-pic">
-								<img class="img-as-bg" src="/img/placeholders/800x800.png" alt="">
+								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
 							</div>
 							<h4>인선이</h4>
 						</div>
@@ -249,13 +249,13 @@
 					<div class="row animation-chain" data-animation="fadeInUp">
 						<div class="col-sm-3">
 							<div class="profile-pic">
-								<img class="img-as-bg" src="/img/placeholders/800x800.png" alt="">
+								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
 							</div>
 							<h4>신부 들러리1</h4>
 						</div>
 						<div class="col-sm-3">
 							<div class="profile-pic">
-								<img class="img-as-bg" src="/img/placeholders/800x800.png" alt="">
+								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
 							</div>
 							<h4>신부 들러리2</h4>
 						</div>
@@ -264,13 +264,13 @@
 					<div class="row animation-chain" data-animation="fadeInUp">
 						<div class="col-sm-3">
 							<div class="profile-pic">
-								<img class="img-as-bg" src="/img/placeholders/800x800.png" alt="">
+								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
 							</div>
 							<h4>신랑 들러리1</h4>
 						</div>
 						<div class="col-sm-3">
 							<div class="profile-pic">
-								<img class="img-as-bg" src="/img/placeholders/800x800.png" alt="">
+								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
 							</div>
 							<h4>신랑 들러리2</h4>
 						</div>
@@ -306,12 +306,12 @@
 				</header>
 				<div class="gallery-grid animation-chain" data-animation="zoomIn">
 					<div class="gallery-grid-item bride-groom">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="image-list">
-								<li><img src="img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
 							</ul>
 							<ul class="gallery-info">
 								<li class="name-cat">
@@ -325,7 +325,7 @@
 						</div>
 					</div>
 					<div class="gallery-grid-item family">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="video">
 								<li><iframe data-src="https://player.vimeo.com/video/24456787" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
@@ -342,7 +342,7 @@
 						</div>
 					</div>
 					<div class="gallery-grid-item dinner">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="video">
 								<li><iframe width="560" height="315" data-src="http://www.youtube.com/embed/5aOSxep4ni0?rel=0&showinfo=0&autohide=1&modestbranding=1" allowfullscreen></iframe></li>
@@ -359,7 +359,7 @@
 						</div>
 					</div>
 					<div class="gallery-grid-item party">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="video">
 								<li><iframe width="560" height="315" data-src="http://www.youtube.com/embed/5aOSxep4ni0?rel=0&showinfo=0&autohide=1&modestbranding=1" allowfullscreen></iframe></li>
@@ -376,12 +376,12 @@
 						</div>
 					</div>
 					<div class="gallery-grid-item bride-groom">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="image-list">
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
 							</ul>
 							<ul class="gallery-info">
 								<li class="name-cat">
@@ -395,7 +395,7 @@
 						</div>
 					</div>
 					<div class="gallery-grid-item family">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="video">
 								<li><iframe data-src="https://player.vimeo.com/video/24456787" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
@@ -412,7 +412,7 @@
 						</div>
 					</div>
 					<div class="gallery-grid-item dinner">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="video">
 								<li><iframe width="560" height="315" data-src="http://www.youtube.com/embed/5aOSxep4ni0?rel=0&showinfo=0&autohide=1&modestbranding=1" allowfullscreen></iframe></li>
@@ -429,12 +429,12 @@
 						</div>
 					</div>
 					<div class="gallery-grid-item party">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="image-list">
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
 							</ul>
 							<ul class="gallery-info">
 								<li class="name-cat">
@@ -448,12 +448,12 @@
 						</div>
 					</div>
 					<div class="gallery-grid-item bride-groom">
-						<img src="/img/placeholders/1200x800.png" alt="">
+						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="image-list">
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
+								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
 							</ul>
 							<ul class="gallery-info">
 								<li class="name-cat">
@@ -479,10 +479,10 @@
             </script>
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			<footer>
-				<div class="footer-bg parallax" data-background-image="/img/main/main1.jpg" data-parallax-factor=".8"></div>
+				<div class="footer-bg parallax" data-background-image="/bigday/img/main/main1.jpg" data-parallax-factor=".8"></div>
 				<div class="heart">
 					<svg viewBox="0 0 38 35">
-						<use class="shape-heart" xlink:href="/img/heart.svg#shape-heart"></use>
+						<use class="shape-heart" xlink:href="/bigday/img/heart.svg#shape-heart"></use>
 					</svg>
 				</div>
 				<h2>Save the date</h2>
@@ -500,16 +500,16 @@
 				<a href="#hero" class="scroll-link scroll-up"><i class="fa fa-arrow-up"></i></a>
 			</footer>
 
-			<script src="/js/vendor/jquery-3.1.1.min.js"></script>
-			<script src="/js/vendor/bootstrap.min.js"></script>
-			<script src="/js/vendor/jquery.waypoints.min.js"></script>
-			<script src="/js/vendor/imagesloaded.pkgd.min.js"></script>
-			<script src="/js/vendor/isotope.pkgd.min.js"></script>
-			<script src="/js/vendor/owl.carousel.2.1.6/owl.carousel.min.js"></script>
-			<script src="/js/vendor/countdown.js"></script>
-			<script src="/js/vendor/jquery.magnific-popup.min.js"></script>
-			<script src="/js/parallax.js"></script>
-			<script src="/js/main.js"></script>
+			<script src="/bigday/js/vendor/jquery-3.1.1.min.js"></script>
+			<script src="/bigday/js/vendor/bootstrap.min.js"></script>
+			<script src="/bigday/js/vendor/jquery.waypoints.min.js"></script>
+			<script src="/bigday/js/vendor/imagesloaded.pkgd.min.js"></script>
+			<script src="/bigday/js/vendor/isotope.pkgd.min.js"></script>
+			<script src="/bigday/js/vendor/owl.carousel.2.1.6/owl.carousel.min.js"></script>
+			<script src="/bigday/js/vendor/countdown.js"></script>
+			<script src="/bigday/js/vendor/jquery.magnific-popup.min.js"></script>
+			<script src="/bigday/js/parallax.js"></script>
+			<script src="/bigday/js/main.js"></script>
 			<!-- Google Analytics: uncomment the code below and change UA-XXXXX-X to be your site's ID. -->
 			<!-- <script>
 					(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
