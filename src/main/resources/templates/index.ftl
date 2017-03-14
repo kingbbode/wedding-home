@@ -19,9 +19,11 @@
 				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.carousel.min.css">
 				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.theme.default.min.css">
 				<link rel="stylesheet" href="/bigday/css/big-day.css">
+				<script src="/dist/vendor.js"></script>
 				<script src="/bigday/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 		</head>
 		<body>
+			<app-root>Loading...</app-root>
 			<div class="preloader"></div>
 			<section id="hero" class="section-hero">
 				<div class="owl-carousel owl-full-width owl-theme">
@@ -35,12 +37,12 @@
 					<div class="announcement animation-chain" data-animation="fadeInUp">
 						<div class="heart">
 							<svg width="38px" height="35px" viewBox="0 0 38 35">
-								<use class="shape-heart" xlink:href="img/heart.svg#shape-heart"></use>
+								<use class="shape-heart" xlink:href="/bigday/img/heart.svg#shape-heart"></use>
 							</svg>
 						</div>
 						<div class="decor decor-inverse">
 							<svg width="281px" height="51px" viewBox="0 0 281 51">
-								<use class="shape-decor" xlink:href="img/decor.svg#shape-decor"></use>
+								<use class="shape-decor" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
 							</svg>
 						</div>
 						<h2>We're getting married!</h2>
@@ -48,7 +50,7 @@
 						<p class="date"><span>2017.06.24</span></p>
 						<div class="decor">
 							<svg width="281px" height="51px" viewBox="0 0 281 51">
-								<use class="shape-decor" xlink:href="img/decor.svg#shape-decor"></use>
+								<use class="shape-decor" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
 							</svg>
 						</div>
 					</div>
@@ -479,7 +481,7 @@
             </script>
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			<footer>
-				<div class="footer-bg parallax" data-background-image="/bigday/img/main/main1.jpg" data-parallax-factor=".8"></div>
+				<div class="footer-bg parallax" data-background-image="/img/main/main1.jpg" data-parallax-factor=".8"></div>
 				<div class="heart">
 					<svg viewBox="0 0 38 35">
 						<use class="shape-heart" xlink:href="/bigday/img/heart.svg#shape-heart"></use>
@@ -499,8 +501,10 @@
 				<p>Copyright 2017. All rights reserved.</p>
 				<a href="#hero" class="scroll-link scroll-up"><i class="fa fa-arrow-up"></i></a>
 			</footer>
-
-			<script src="/bigday/js/vendor/jquery-3.1.1.min.js"></script>
+            <script src="/dist/bigday.js"></script>
+			<script src="/dist/polyfill.js"></script>
+			<script src="/dist/app.js"></script>
+			<#--<script src="/bigday/js/vendor/jquery-3.1.1.min.js"></script>
 			<script src="/bigday/js/vendor/bootstrap.min.js"></script>
 			<script src="/bigday/js/vendor/jquery.waypoints.min.js"></script>
 			<script src="/bigday/js/vendor/imagesloaded.pkgd.min.js"></script>
@@ -509,7 +513,7 @@
 			<script src="/bigday/js/vendor/countdown.js"></script>
 			<script src="/bigday/js/vendor/jquery.magnific-popup.min.js"></script>
 			<script src="/bigday/js/parallax.js"></script>
-			<script src="/bigday/js/main.js"></script>
+			<script src="/bigday/js/main.js"></script>-->
 			<!-- Google Analytics: uncomment the code below and change UA-XXXXX-X to be your site's ID. -->
 			<!-- <script>
 					(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

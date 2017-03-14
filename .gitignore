@@ -25,5 +25,7 @@ nbdist/
 .nb-gradle/
 out
 src/main/resources/static/bigday
-src/main/resources/static/dist/*
+src/main/resources/static/angular/**/*.js
+src/main/resources/static/angular/**/*.js.map
+src/main/resources/static/dist
 node_modules

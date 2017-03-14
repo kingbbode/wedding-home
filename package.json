@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "build": "tsc && webpack --progress"
   },
   "private": true,
   "dependencies": {
+    "jquery": "3.1.1",
+    "imagesloaded": "4.1.0",
     "@angular/common": "^2.4.0",
     "@angular/compiler": "^2.4.0",
     "@angular/core": "^2.4.0",
@@ -20,6 +23,8 @@
     "zone.js": "^0.7.6"
   },
   "devDependencies": {
-    "typescript": "~2.0.0"
+    "typescript": "~2.0.0",
+    "webpack": "~1.13.3",
+    "clean-webpack-plugin": "^0.1.14"
   }
 }

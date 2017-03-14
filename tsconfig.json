@@ -1,13 +1,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "src/main/resources/static/dist/out-tsc",
+    "outDir": "",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "module": "commonjs",
     "lib": [
       "es2016",
       "dom"
