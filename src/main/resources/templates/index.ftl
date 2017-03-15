@@ -23,7 +23,6 @@
 				<script src="/bigday/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 		</head>
 		<body>
-			<app-root>Loading...</app-root>
 			<div class="preloader"></div>
 			<section id="hero" class="section-hero">
 				<div class="owl-carousel owl-full-width owl-theme">
@@ -502,8 +501,6 @@
 				<a href="#hero" class="scroll-link scroll-up"><i class="fa fa-arrow-up"></i></a>
 			</footer>
             <script src="/dist/bigday.js"></script>
-			<script src="/dist/polyfill.js"></script>
-			<script src="/dist/app.js"></script>
 			<#--<script src="/bigday/js/vendor/jquery-3.1.1.min.js"></script>
 			<script src="/bigday/js/vendor/bootstrap.min.js"></script>
 			<script src="/bigday/js/vendor/jquery.waypoints.min.js"></script>
