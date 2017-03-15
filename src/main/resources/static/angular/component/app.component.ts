@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { GalleryService } from './gallery/gallery.service';
 import { Gallery } from './gallery/gallery'
 
@@ -21,8 +21,8 @@ export class AppComponent implements OnInit{
   ngOnInit(){
     this.galleryService.getList()
         .subscribe(
-            galleries -> this.galleries = galleries,
-            err -> {
+            galleries => this.galleries = galleries,
+            err => {
               console.log(err);
             });
     console.log('on init');

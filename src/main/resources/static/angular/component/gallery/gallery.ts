@@ -1,12 +1,10 @@
 export class Gallery {
-    idx : number;
-    title : string = '';
-    subtitle : string = '';
-    content : string = '';
-    imagesJson : string = '';
-    type : string = 'IMAGE';
-
-    constructor(values : Object = {}){
-        Object.assign(this, values);
-    }
+    constructor(
+        public idx : number,
+        public title : string,
+        public subtitle : string,
+        public content : string,
+        public imagesJson : string,
+        public type : string
+    ){}
 }
