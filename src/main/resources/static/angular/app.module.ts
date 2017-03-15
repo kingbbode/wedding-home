@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app/app.component';
+import { AppComponent } from './component/app.component';
+import { GalleryService } from './component/gallery/gallery.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { AppComponent } from './app/app.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ GalleryService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
