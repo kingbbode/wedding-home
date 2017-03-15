@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './component/app.component';
 import { GalleryService } from './component/gallery/gallery.service';
+import { GalleryComponent } from './component/gallery/gallery.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

@@ -5,7 +5,7 @@ import {Gallery} from "./gallery";
 
 @Injectable()
 export class GalleryService {
-    private url : string = "/gallery";
+    private url : string = "/cms/gallery";
 
     constructor(private http : Http){}
 

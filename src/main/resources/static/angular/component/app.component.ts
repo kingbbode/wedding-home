@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { GalleryService } from './gallery/gallery.service';
-import { Gallery } from './gallery/gallery'
+import { Gallery } from './gallery/gallery';
 
 @Component({
   selector: 'app-root',
   template : `
-        <gallery
+        <gallery-box
         *ngFor="let gallery of galleries" 
         [gallery]="gallery">
-        </gallery>
+        </gallery-box>
         `
 })
 export class AppComponent implements OnInit{
