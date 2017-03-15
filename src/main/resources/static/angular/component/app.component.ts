@@ -5,10 +5,12 @@ import { Gallery } from './gallery/gallery';
 @Component({
   selector: 'app-root',
   template : `
-        <gallery-box
-        *ngFor="let gallery of galleries" 
-        [gallery]="gallery">
-        </gallery-box>
+    <div class="row">
+      <gallery-box
+      *ngFor="let gallery of galleries" 
+      [gallery]="gallery">
+      </gallery-box>
+    </div>
         `
 })
 export class AppComponent implements OnInit{
