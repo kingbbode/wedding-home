@@ -7,6 +7,9 @@ import { Gallery } from './gallery/gallery';
   template : `
     <div class="row">
       <gallery-box
+        [gallery]="newInstanceGallery()">
+      </gallery-box>
+      <gallery-box
       *ngFor="let gallery of galleries" 
       [gallery]="gallery">
       </gallery-box>
@@ -16,6 +19,7 @@ import { Gallery } from './gallery/gallery';
 export class AppComponent implements OnInit{
 
   galleries : Gallery[];
+  gallery : Gallery
 
   constructor(private galleryService: GalleryService) {
   }
@@ -28,5 +32,9 @@ export class AppComponent implements OnInit{
               console.log(err);
             });
     console.log('on init');
+  }
+
+  newInstanceGallery() : Gallery {
+    return new Gallery();
   }
 }
