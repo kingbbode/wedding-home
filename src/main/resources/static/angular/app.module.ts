@@ -8,6 +8,7 @@ import { CarouselModule } from 'ng2-bootstrap';
 import { AppComponent } from './component/app.component';
 import { GalleryService } from './component/gallery/gallery.service';
 import { GalleryComponent } from './component/gallery/gallery.component'
+import {ImageUploadModule} from "angular2-image-upload";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GalleryComponent } from './component/gallery/gallery.component'
     BrowserModule,
     FormsModule,
     HttpModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    ImageUploadModule.forRoot()
   ],
   providers: [ GalleryService ],
   bootstrap: [AppComponent]

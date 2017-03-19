@@ -31,7 +31,6 @@ export class AppComponent implements OnInit{
             err => {
               console.log(err);
             });
-    console.log('on init');
   }
 
   newInstanceGallery() : Gallery {

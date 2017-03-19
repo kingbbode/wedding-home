@@ -1,6 +1,7 @@
 package com.kingbbode.aws;
 
 import com.amazonaws.services.s3.AmazonS3Client;
+import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.PutObjectResult;
@@ -30,6 +31,15 @@ public class S3Service {
     @Value("${cloud.aws.s3.bucket}")
     private String bucket;
 
+    public PutObjectResult upload(MultipartFile multipartFile){
+        try {
+            return upload(multipartFile.getInputStream(), multipartFile.getOriginalFilename());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public List<PutObjectResult> upload(MultipartFile[] multipartFiles) {
         List<PutObjectResult> putObjectResults = new ArrayList<>();
         Arrays.stream(multipartFiles)
@@ -48,6 +58,7 @@ public class S3Service {
 
     private PutObjectResult upload(InputStream inputStream, String uploadKey) {
         PutObjectRequest putObjectRequest = new PutObjectRequest(bucket, uploadKey, inputStream, new ObjectMetadata());
+        putObjectRequest.setCannedAcl(CannedAccessControlList.PublicRead);
         PutObjectResult putObjectResult = amazonS3Client.putObject(putObjectRequest);
         IOUtils.closeQuietly(inputStream);
         return putObjectResult;

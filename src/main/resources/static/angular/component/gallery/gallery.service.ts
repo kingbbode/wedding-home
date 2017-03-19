@@ -17,7 +17,7 @@ export class GalleryService {
 
     save(gallery : Gallery): Observable<{}> {
         return this.http.post(this.url, gallery)
-            .map((response: Response) => response.json())
+            .map((response: Response) => response)
             .catch((error:any) => Observable.throw(error.json().error || 'Server error'));
     }
 }
