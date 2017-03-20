@@ -4,6 +4,7 @@ import com.amazonaws.services.s3.model.PutObjectResult;
 import com.kingbbode.aws.S3Service;
 import com.kingbbode.model.Gallery;
 import com.kingbbode.repository.GalleryRepository;
+import com.kingbbode.service.GalleryCacheService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by YG-MAC on 2017. 3. 12..
@@ -26,14 +28,30 @@ public class CmsController {
     @Autowired
     private GalleryRepository galleryRepository;
 
+    @Autowired
+    private GalleryCacheService galleryCacheService;
+
     @GetMapping
-    public String cms(){
+    public String cms(@RequestParam(required = false) String id, @RequestParam(required = false) String pass){
+        if(!Objects.equals(id, "11") || !Objects.equals(pass, "22")){
+            return "redirect:/";
+        }
         return "cms";
+    }
+
+    @GetMapping("/update")
+    @ResponseBody
+    public ResponseEntity<String> update(@RequestParam(required = false) String id, @RequestParam(required = false) String pass){
+        if(!Objects.equals(id, "11") || !Objects.equals(pass, "22")){
+            return new ResponseEntity<String>("Failed", HttpStatus.FORBIDDEN);
+        }
+        galleryCacheService.update();
+        return new ResponseEntity<>("성공", HttpStatus.OK);
     }
 
     @PostMapping("/image")
     @ResponseBody
-    public List<PutObjectResult> upload(@RequestParam("file") MultipartFile[] multipartFiles){
+    public PutObjectResult upload(@RequestParam("image") MultipartFile multipartFiles){
         return s3Service.upload(multipartFiles);
     }
 

@@ -29,6 +29,9 @@ public class Gallery {
     @Enumerated(EnumType.STRING)
     private GalleryType type;
 
+    @Column
+    private String category;
+
     public Long getIdx() {
         return idx;
     }
@@ -51,5 +54,9 @@ public class Gallery {
 
     public GalleryType getType() {
         return type;
+    }
+
+    public String getCategory() {
+        return category;
     }
 }
