@@ -299,14 +299,46 @@
 					<h2 class="">Gallery</h2>
 					<ul class="gallery-cats">
 						<li><a href="#" data-cat="*" class="current">All</a></li>
-						<li><a href="#" data-cat="bride-groom">Bride & Groom</a></li>
+						<li><a href="#" data-cat="ysjh">YS & JH</a></li>
 						<li><a href="#" data-cat="family">Family</a></li>
-						<li><a href="#" data-cat="dinner">Dinner</a></li>
+						<li><a href="#" data-cat="wedding">Wedding</a></li>
 						<li><a href="#" data-cat="party">Party</a></li>
 					</ul>
 				</header>
 				<div class="gallery-grid animation-chain" data-animation="zoomIn">
-					<div class="gallery-grid-item bride-groom">
+					<#list galleries as gallery>
+                    <div class="gallery-grid-item ${gallery.category}">
+						<#assign images = gallery.imagesJson?eval>
+						<#if gallery.type == 'IMAGE'>
+                            <img src="${images[0]}" alt="">
+						<#else>
+                            <img src="/bigday/img/blank.png" alt="">
+						</#if>
+                        <div class="gallery-hidden">
+						<#if gallery.type == 'IMAGE'>
+                            <ul class="image-list">
+								<#list images as image>
+                                <li><img src="/bigday/img/blank.png" data-src="${image}" alt=""></li>
+                            	</#list>
+							</ul>
+						<#else>
+                            <ul class="video">
+                                <li><iframe data-src="${images[0]}" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
+                            </ul>
+						</#if>
+                            <ul class="gallery-info">
+                                <li class="name-cat">
+                                    <h3>${gallery.title}</h3>
+                                    <p>${gallery.subtitle}</p>
+                                </li>
+                                <li class="desc">
+                                    <p>${gallery.content}</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+					</#list>
+					<#--<div class="gallery-grid-item bride-groom">
 						<img src="/bigday/img/placeholders/1200x800.png" alt="">
 						<div class="gallery-hidden">
 							<ul class="image-list">
@@ -466,7 +498,7 @@
 								</li>
 							</ul>
 						</div>
-					</div>
+					</div>-->
 				</div>
 			</section>
             <div id="disqus_thread" class="article-comments"></div>

@@ -7,7 +7,7 @@ import { Gallery } from './gallery'
     template : `
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-          <carousel>
+          <carousel *ngIf="gallery.type == 'IMAGE'">
             <slide *ngFor="let image of images">
               <img src="{{image}}" style="width: 100%;">
             </slide>
@@ -47,6 +47,12 @@ import { Gallery } from './gallery'
           <div *ngIf="gallery.type == 'VIDEO'">
             <input *ngFor="let image of images" type="text" class="form-control" value="{{image}}">
           </div>
+          <select [(ngModel)]="gallery.category" class="form-control">
+            <option value="ysjh">익선&진희</option>
+            <option value="family">가족</option>
+            <option value="wedding">결혼식</option>
+            <option value="party">파티</option>
+          </select>
           <p><a href="javascript:;" (click)="save()" class="btn btn-primary" role="button">저장</a> <a href="#" class="btn btn-default" role="button">삭제</a></p>
         </div>
       </div>
@@ -61,6 +67,7 @@ export class GalleryComponent implements OnInit{
 
     ngOnInit(){
         this.images = JSON.parse(this.gallery.imagesJson);
+        console.log('gallery', this.gallery)
     }
 
     imageUploaded($event, i) : void {

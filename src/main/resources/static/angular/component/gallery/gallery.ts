@@ -5,6 +5,7 @@ export class Gallery {
         public subtitle : string = "",
         public content : string = "",
         public imagesJson : string = '["","",""]',
-        public type : string = "IMAGE"
+        public type : string = "IMAGE",
+        public category : string ="ysjh"
     ){}
 }
