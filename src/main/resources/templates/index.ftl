@@ -104,11 +104,11 @@
 				<div class="separator-carousel">
 					<div class="owl-carousel owl-theme">
 						<a href="/img/main/pic.jpg" class="item"><img src="/img/main/pic.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic.jpg" class="item"><img src="/img/main/pic1.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic.jpg" class="item"><img src="/img/main/pic2.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic.jpg" class="item"><img src="/img/main/pic3.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic.jpg" class="item"><img src="/img/main/pic4.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic.jpg" class="item"><img src="/img/main/main5.jpg" alt="" class="img-as-bg"></a>
+						<a href="/img/main/pic1.jpg" class="item"><img src="/img/main/pic1.jpg" alt="" class="img-as-bg"></a>
+						<a href="/img/main/pic2.jpg" class="item"><img src="/img/main/pic2.jpg" alt="" class="img-as-bg"></a>
+						<a href="/img/main/pic3.jpg" class="item"><img src="/img/main/pic3.jpg" alt="" class="img-as-bg"></a>
+						<a href="/img/main/pic4.jpg" class="item"><img src="/img/main/pic4.jpg" alt="" class="img-as-bg"></a>
+						<a href="/img/main/main5.jpg" class="item"><img src="/img/main/main5.jpg" alt="" class="img-as-bg"></a>
 					</div>
 				</div>
 			</div>

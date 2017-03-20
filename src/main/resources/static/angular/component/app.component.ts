@@ -6,9 +6,13 @@ import { Gallery } from './gallery/gallery';
   selector: 'app-root',
   template : `
     <div class="row">
+      <div class="col-sm-6 col-md-4"></div>
       <gallery-box
-        [gallery]="newInstanceGallery()">
+        [gallery]="newGallery">
       </gallery-box>
+      <div class="col-sm-6 col-md-4"></div>
+    </div>
+    <div class="row">
       <gallery-box
       *ngFor="let gallery of galleries" 
       [gallery]="gallery">
@@ -18,22 +22,19 @@ import { Gallery } from './gallery/gallery';
 })
 export class AppComponent implements OnInit{
 
+  newGallery : Gallery;
   galleries : Gallery[];
-  gallery : Gallery
 
   constructor(private galleryService: GalleryService) {
   }
 
   ngOnInit(){
+    this.newGallery = new Gallery();
     this.galleryService.getList()
         .subscribe(
             galleries => this.galleries = galleries,
             err => {
               console.log(err);
             });
-  }
-
-  newInstanceGallery() : Gallery {
-    return new Gallery();
   }
 }

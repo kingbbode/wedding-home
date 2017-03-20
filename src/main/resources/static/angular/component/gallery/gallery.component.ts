@@ -9,7 +9,7 @@ import { Gallery } from './gallery'
         <div class="thumbnail">
           <carousel *ngIf="gallery.type == 'IMAGE'">
             <slide *ngFor="let image of images">
-              <img src="{{image}}" style="width: 100%;">
+              <img src="{{image}}" style="width: 100%; height: 250px">
             </slide>
           </carousel>
           <div class="form-group">
