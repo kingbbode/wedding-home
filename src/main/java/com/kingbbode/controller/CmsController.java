@@ -32,19 +32,13 @@ public class CmsController {
     private GalleryCacheService galleryCacheService;
 
     @GetMapping
-    public String cms(@RequestParam(required = false) String id, @RequestParam(required = false) String pass){
-        if(!Objects.equals(id, "11") || !Objects.equals(pass, "22")){
-            return "redirect:/";
-        }
+    public String cms(){
         return "cms";
     }
 
     @GetMapping("/update")
     @ResponseBody
-    public ResponseEntity<String> update(@RequestParam(required = false) String id, @RequestParam(required = false) String pass){
-        if(!Objects.equals(id, "11") || !Objects.equals(pass, "22")){
-            return new ResponseEntity<String>("Failed", HttpStatus.FORBIDDEN);
-        }
+    public ResponseEntity<String> update(){
         galleryCacheService.update();
         return new ResponseEntity<>("성공", HttpStatus.OK);
     }

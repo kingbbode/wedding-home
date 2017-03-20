@@ -39,6 +39,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-freemarker')
+	compile('org.springframework.boot:spring-boot-starter-security')
 	compile("org.springframework.cloud:spring-cloud-aws-context:${springCloudVersion}")
 	compile("commons-io:commons-io:2.4")
 	runtime('org.springframework.boot:spring-boot-devtools')

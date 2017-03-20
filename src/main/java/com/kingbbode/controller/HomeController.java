@@ -19,4 +19,9 @@ public class HomeController {
         model.addAttribute("galleries",galleryCacheService.findAll());
         return "index";
     }
+
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
 }
