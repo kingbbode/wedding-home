@@ -22,7 +22,7 @@ apply plugin: "io.spring.dependency-management"
 
 war {
 	baseName = 'wedding-web'
-	version = '0.0.1-SNAPSHOT'
+	version = '1.0.0' + new Date().format("yyyyMMddHHMM")
 }
 
 sourceCompatibility = 1.8
