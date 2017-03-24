@@ -26,11 +26,11 @@
 			<div class="preloader"></div>
 			<section id="hero" class="section-hero">
 				<div class="owl-carousel owl-full-width owl-theme">
-					<div class="item"><img src="/img/main/main1.jpg" alt="" class="img-as-bg"></div>
-					<div class="item"><img src="/img/main/main2.jpg" alt="" class="img-as-bg"></div>
-					<div class="item"><img src="/img/main/main3.jpg" alt="" class="img-as-bg"></div>
-					<div class="item"><img src="/img/main/main4.jpg" alt="" class="img-as-bg"></div>
-					<div class="item"><img src="/img/main/main5.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main1.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main2.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main3.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main4.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main5.jpg" alt="" class="img-as-bg"></div>
 				</div>
 				<div class="announcement-wrapper">
 					<div class="announcement animation-chain" data-animation="fadeInUp">
@@ -83,7 +83,7 @@
 				<div class="bride-and-groom flex-responsive">
 					<div class="groom">
 						<div class="profile-pic animation-chain" data-animation="fadeInUp">
-							<img src="/img/main/yu.jpg" alt="">
+							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
 						</div>
 						<h3>유익선</h3>
 						<h4>Yu Ik Seon</h4>
@@ -91,7 +91,7 @@
 					</div>
 					<div class="bride">
 						<div class="profile-pic animation-chain" data-animation="fadeInUp">
-							<img src="/img/main/park.jpg" alt="">
+							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/park.jpg" alt="">
 						</div>
 						<h3>박진희</h3>
 						<h4>Pack Jin Hee</h4>
@@ -103,12 +103,12 @@
 			<div class="separator">
 				<div class="separator-carousel">
 					<div class="owl-carousel owl-theme">
-						<a href="/img/main/pic.jpg" class="item"><img src="/img/main/pic.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic1.jpg" class="item"><img src="/img/main/pic1.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic2.jpg" class="item"><img src="/img/main/pic2.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic3.jpg" class="item"><img src="/img/main/pic3.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/pic4.jpg" class="item"><img src="/img/main/pic4.jpg" alt="" class="img-as-bg"></a>
-						<a href="/img/main/main5.jpg" class="item"><img src="/img/main/main5.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic1.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic1.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic2.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic2.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic3.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic3.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic4.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic4.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main5.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main5.jpg" alt="" class="img-as-bg"></a>
 					</div>
 				</div>
 			</div>
@@ -119,7 +119,7 @@
 					<li class="flex-responsive">
 						<div class="meta">
 							<div class="timeline-thumbnail">
-								<img class="img-as-bg" src="/img/main/yu.jpg" alt="">
+								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
 							</div>
 							<div class="date">2014</div>
 						</div>
@@ -133,7 +133,7 @@
 					<li class="flex-responsive">
 						<div class="meta">
 							<div class="timeline-thumbnail">
-								<img class="img-as-bg" src="/img/main/yu.jpg" alt="">
+								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
 							</div>
 							<div class="date">2015</div>
 						</div>
@@ -147,7 +147,7 @@
 					<li class="flex-responsive">
 						<div class="meta">
 							<div class="timeline-thumbnail">
-								<img class="img-as-bg" src="/img/main/yu.jpg" alt="">
+								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
 							</div>
 							<div class="date">2016</div>
 						</div>
@@ -161,7 +161,7 @@
 					<li class="flex-responsive">
 						<div class="meta">
 							<div class="timeline-thumbnail">
-								<img class="img-as-bg" src="/img/main/yu.jpg" alt="">
+								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
 							</div>
 							<div class="date">2017</div>
 						</div>
@@ -175,7 +175,7 @@
 				</ul>
 			</section>
 
-			<div class="separator parallax" data-background-image="/img/main/dday.jpg" data-parallax-factor=".8">
+			<div class="separator parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/dday.jpg" data-parallax-factor=".8">
 				<div class="flowers"></div>
 				<h2 data-after-countdown="We got married on June 24, 2017.">Counting Down to Our Big Day</h2>
 				<div class="decor"><i class="fa fa-heart-o"></i></div>
@@ -512,7 +512,7 @@
             </script>
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			<footer>
-				<div class="footer-bg parallax" data-background-image="/img/main/main1.jpg" data-parallax-factor=".8"></div>
+				<div class="footer-bg parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main1.jpg" data-parallax-factor=".8"></div>
 				<div class="heart">
 					<svg viewBox="0 0 38 35">
 						<use class="shape-heart" xlink:href="/bigday/img/heart.svg#shape-heart"></use>
