@@ -1,7 +1,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",

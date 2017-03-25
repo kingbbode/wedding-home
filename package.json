@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "watch": "tsc -w",
+    "typescript:watch": "tsc -w",
+    "webpack:watch": "webpack --watch",
+    "watch": "npm-run-all --parallel typescript:watch webpack:watch",
     "build": "tsc && webpack --progress"
   },
   "private": true,
@@ -27,8 +29,9 @@
     "zone.js": "^0.7.6"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.14",
+    "npm-run-all": "^4.0.2",
     "typescript": "~2.0.0",
-    "webpack": "~1.13.3",
-    "clean-webpack-plugin": "^0.1.14"
+    "webpack": "~1.13.3"
   }
 }
