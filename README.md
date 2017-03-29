@@ -1,10 +1,14 @@
 # 웨딩 홈페이지
 
+*2017.03*
+
 > 친구를 위한 웨딩 홈페이지
+
+
 
 - Spring Boot
 - Angularjs2
-- AWS (EC2, S3, RDS)
+- AWS (EC2, S3, RDS, Cloudfront, route53)
 
 ---
 
