@@ -68,7 +68,6 @@
 						<li><a class="scroll-link" href="#couple">Couple</a></li>
 						<li><a class="scroll-link" href="#story">Story</a></li>
 						<li><a class="scroll-link" href="#events">Events</a></li>
-						<li><a class="scroll-link" href="#people">People</a></li>
 						<li><a class="scroll-link" href="#gallery">Gallery</a></li>
 					</ul>
 				</div>
@@ -88,6 +87,10 @@
 						<h3>유익선</h3>
 						<h4>Yu Ik Seon</h4>
 						<p>할말 있으면 쓰고.~~~~~~~~~~~~~~~~~~</p>
+                        <ul class="social">
+                            <li><a href="tel:010-9996-0322"><i class="fa fa-phone"></i></a></li>
+                            <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-o"></i></a></li>
+                        </ul>
 					</div>
 					<div class="bride">
 						<div class="profile-pic animation-chain" data-animation="fadeInUp">
@@ -96,6 +99,10 @@
 						<h3>박진희</h3>
 						<h4>Pack Jin Hee</h4>
 						<p>할말 있으면 쓰고.~~~~~~~~~~~~~~~~~~</p>
+                        <ul class="social">
+                            <li><a href="tel:010-9996-0322"><i class="fa fa-phone"></i></a></li>
+                            <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-o"></i></a></li>
+                        </ul>
 					</div>
 				</div>
 			</section>
@@ -218,65 +225,6 @@
 						</div>
 					</li>
 				</ul>
-			</section>
-			<section id="people" class="section-people">
-				<h2>People</h2>
-				<div class="section-intro">
-					<p>소개하고 싶은 사람하세용.</p>
-				</div>
-				<div class="container-fluid">
-					<h3>Family</h3>
-					<div class="row animation-chain" data-animation="fadeInUp">
-						<div class="col-sm-3">
-							<div class="profile-pic">
-								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
-							</div>
-							<h4>아버지</h4>
-						</div>
-						<div class="col-sm-3">
-							<div class="profile-pic">
-								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
-							</div>
-							<h4>어머니</h4>
-						</div>
-						<div class="col-sm-3">
-							<div class="profile-pic">
-								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
-							</div>
-							<h4>인선이</h4>
-						</div>
-					</div>
-					<h3>Bridesmaids</h3>
-					<div class="row animation-chain" data-animation="fadeInUp">
-						<div class="col-sm-3">
-							<div class="profile-pic">
-								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
-							</div>
-							<h4>신부 들러리1</h4>
-						</div>
-						<div class="col-sm-3">
-							<div class="profile-pic">
-								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
-							</div>
-							<h4>신부 들러리2</h4>
-						</div>
-					</div>
-					<h3>Groomsmen</h3>
-					<div class="row animation-chain" data-animation="fadeInUp">
-						<div class="col-sm-3">
-							<div class="profile-pic">
-								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
-							</div>
-							<h4>신랑 들러리1</h4>
-						</div>
-						<div class="col-sm-3">
-							<div class="profile-pic">
-								<img class="img-as-bg" src="/bigday/img/placeholders/800x800.png" alt="">
-							</div>
-							<h4>신랑 들러리2</h4>
-						</div>
-					</div>
-				</div>
 			</section>
 
 			<section id="gallery" class="section-gallery bg-light-gray">
