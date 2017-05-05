@@ -88,8 +88,8 @@
 						<h4>Yu Ik Seon</h4>
 						<p>할말 있으면 쓰고.~~~~~~~~~~~~~~~~~~</p>
                         <ul class="social">
-                            <li><a href="tel:010-9996-0322"><i class="fa fa-phone"></i></a></li>
-                            <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-o"></i></a></li>
+                            <li><a href="tel:010-9996-0322"><i class="fa fa-phone-square"></i></a></li>
+                            <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-square"></i></a></li>
                         </ul>
 					</div>
 					<div class="bride">
@@ -100,8 +100,8 @@
 						<h4>Pack Jin Hee</h4>
 						<p>할말 있으면 쓰고.~~~~~~~~~~~~~~~~~~</p>
                         <ul class="social">
-                            <li><a href="tel:010-9996-0322"><i class="fa fa-phone"></i></a></li>
-                            <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-o"></i></a></li>
+                            <li><a href="tel:010-9996-0322"><i class="fa fa-phone-square"></i></a></li>
+                            <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-square"></i></a></li>
                         </ul>
 					</div>
 				</div>
