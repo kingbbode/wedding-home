@@ -6,7 +6,7 @@
 		<head>
 				<meta charset="utf-8">
 				<meta http-equiv="X-UA-Compatible" content="IE=edge">
-				<title>YISvPJH</title>
+				<title>결혼식을 축하주세요!</title>
 				<meta name="description" content="">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 				<link rel="stylesheet" href="/bigday/css/bootstrap.min.css">
@@ -286,167 +286,6 @@
                         </div>
                     </div>
 					</#list>
-					<#--<div class="gallery-grid-item bride-groom">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="image-list">
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorem deleniti numquam magnam quos expedita, amet officiis. Provident, minima, qui earum, hic eveniet tenetur dignissimos corrupti cumque sequi dolorum sapiente!</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="gallery-grid-item family">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="video">
-								<li><iframe data-src="https://player.vimeo.com/video/24456787" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, dolorum impedit quisquam modi quos fuga illo maxime suscipit vitae quae tenetur, esse repellat libero architecto nesciunt voluptatibus maiores distinctio velit.</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="gallery-grid-item dinner">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="video">
-								<li><iframe width="560" height="315" data-src="http://www.youtube.com/embed/5aOSxep4ni0?rel=0&showinfo=0&autohide=1&modestbranding=1" allowfullscreen></iframe></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita porro, numquam omnis. Temporibus consequatur assumenda a quasi eligendi amet natus porro tempore minima, corporis, hic ad vel! Tempore, iure.</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="gallery-grid-item party">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="video">
-								<li><iframe width="560" height="315" data-src="http://www.youtube.com/embed/5aOSxep4ni0?rel=0&showinfo=0&autohide=1&modestbranding=1" allowfullscreen></iframe></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quaerat, ipsum non rem dolore. Sequi, dicta temporibus obcaecati, exercitationem sed nam nobis est! Voluptates quos assumenda a quisquam laborum ipsam.</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="gallery-grid-item bride-groom">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="image-list">
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cumque earum mollitia reiciendis fuga doloremque accusamus, vitae fugit nihil repudiandae hic beatae dolorum iure qui, libero maiores quaerat inventore recusandae.</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="gallery-grid-item family">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="video">
-								<li><iframe data-src="https://player.vimeo.com/video/24456787" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita explicabo recusandae maiores excepturi impedit eligendi nulla nesciunt, deserunt iusto cum doloribus odit aliquam earum ipsam hic dicta cumque dolores ullam!</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="gallery-grid-item dinner">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="video">
-								<li><iframe width="560" height="315" data-src="http://www.youtube.com/embed/5aOSxep4ni0?rel=0&showinfo=0&autohide=1&modestbranding=1" allowfullscreen></iframe></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat necessitatibus, pariatur inventore. Voluptate, amet sunt! Deleniti, provident, perspiciatis! Inventore placeat, repellat nobis non velit veniam repellendus aliquid odio neque sunt.</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="gallery-grid-item party">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="image-list">
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, corporis, eius! Error sit assumenda hic, ab accusamus quos rem, libero quidem recusandae dolorem, praesentium placeat maiores esse rerum laudantium! Obcaecati.</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="gallery-grid-item bride-groom">
-						<img src="/bigday/img/placeholders/1200x800.png" alt="">
-						<div class="gallery-hidden">
-							<ul class="image-list">
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-								<li><img src="/bigday/img/blank.png" data-src="http://placehold.it/1200x800" alt=""></li>
-							</ul>
-							<ul class="gallery-info">
-								<li class="name-cat">
-									<h3>Sweet Memory</h3>
-									<p>Childhood</p>
-								</li>
-								<li class="desc">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, doloremque, nobis. Dicta id reiciendis culpa, facere, asperiores vero repellendus. Cumque repudiandae sed incidunt neque ipsa possimus odit alias mollitia sapiente!</p>
-								</li>
-							</ul>
-						</div>
-					</div>-->
 				</div>
 			</section>
             <div id="disqus_thread" class="article-comments"></div>
@@ -481,24 +320,5 @@
 				<a href="#hero" class="scroll-link scroll-up"><i class="fa fa-arrow-up"></i></a>
 			</footer>
             <script src="/dist/bigday.js"></script>
-			<#--<script src="/bigday/js/vendor/jquery-3.1.1.min.js"></script>
-			<script src="/bigday/js/vendor/bootstrap.min.js"></script>
-			<script src="/bigday/js/vendor/jquery.waypoints.min.js"></script>
-			<script src="/bigday/js/vendor/imagesloaded.pkgd.min.js"></script>
-			<script src="/bigday/js/vendor/isotope.pkgd.min.js"></script>
-			<script src="/bigday/js/vendor/owl.carousel.2.1.6/owl.carousel.min.js"></script>
-			<script src="/bigday/js/vendor/countdown.js"></script>
-			<script src="/bigday/js/vendor/jquery.magnific-popup.min.js"></script>
-			<script src="/bigday/js/parallax.js"></script>
-			<script src="/bigday/js/main.js"></script>-->
-			<!-- Google Analytics: uncomment the code below and change UA-XXXXX-X to be your site's ID. -->
-			<!-- <script>
-					(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-					function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-					e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-					e.src='//www.google-analytics.com/analytics.js';
-					r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-					ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-			</script> -->
 		</body>
 </html>
