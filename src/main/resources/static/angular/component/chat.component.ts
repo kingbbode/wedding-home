@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {MessageService} from './message/message.service';
 import {Message} from "./message/message";
 
@@ -12,9 +12,15 @@ import {Message} from "./message/message";
         </message-box>
     </div>
     <div class="form-actions">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="input-group">
+                    <input id="name" type="text" placeholder="이름" class="form-control" [(ngModel)]="newMessage.name">
+                </div>
+            </div>
+        </div>
         <div class="input-group">
-            <input id="name" type="text" class="form-control" [(ngModel)]="newMessage.name">
-            <input id="message" type="text" class="form-control" [(ngModel)]="newMessage.content">
+            <input id="message" type="text" placeholder="내용" class="form-control" [(ngModel)]="newMessage.content" (keyup.enter)="save()">
             <span class="input-group-btn">
                 <button class="btn btn-sm btn-info no-radius" type="button" id="sendMessage" (click)="save()">
                     <i class="ace-icon fa fa-share"></i>
@@ -25,7 +31,7 @@ import {Message} from "./message/message";
     </div>
         `
 })
-export class ChatComponent implements OnInit{
+export class ChatComponent implements OnInit {
 
     newMessage : Message;
     manMessage : Message;
@@ -41,7 +47,14 @@ export class ChatComponent implements OnInit{
         this.girlMessage = new Message("신부 박진희", "감사합니다^^");
         this.messageService.getList()
             .subscribe(
-                messages => this.messages = messages,
+                messages => {
+                    this.messages = messages;
+                    let that = this;
+                    setTimeout(function(){
+                        that.refreshScroll();
+                    },0);
+
+                },
                 err => {
                     console.log(err);
                 });
@@ -52,25 +65,33 @@ export class ChatComponent implements OnInit{
             alert("신랑, 신부 이름은 금지^^!");
             return;
         }
-        if(!this.isValidLength(this.newMessage.name, 3, 15)){
+        if(!ChatComponent.isValidLength(this.newMessage.name, 3, 15)){
             alert("이름은 최소 3글자 이상, 15글자 이하여야 합니다.");
             return;
         }
-        if(!this.isValidLength(this.newMessage.content, 1, 255)){
+        if(!ChatComponent.isValidLength(this.newMessage.content, 1, 255)){
             alert("내용은 최소 한 글자 이상, 255 글자 이하여야 합니다.");
             return;
         }
 
         this.messageService.save(this.newMessage)
             .subscribe(
-                success => {
+                () => {
                     this.messages.push(new Message(this.newMessage.name, this.newMessage.content));
+                    this.refreshScroll();
                     let that = this;
                     setTimeout(function(){
                         that.messages.push(that.manMessage);
+                        setTimeout(function(){
+                            that.refreshScroll();
+                        },0);
+
                     }, 300);
                     setTimeout(function(){
                         that.messages.push(that.girlMessage);
+                        setTimeout(function(){
+                            that.refreshScroll();
+                        },0);
                     }, 700);
                     this.newMessage.init();
                 },
@@ -79,8 +100,15 @@ export class ChatComponent implements OnInit{
                 });
     }
 
-    isValidLength(value: string, min: number, max: number) {
+    static isValidLength(value: string, min: number, max: number) {
         return value.length >= min
         && value.length <= max;
+    }
+
+    refreshScroll() {
+        let dialogs = $('#dialogs');
+        if(dialogs){
+            dialogs.scrollTop(dialogs[0].scrollHeight);
+        }
     }
 }
