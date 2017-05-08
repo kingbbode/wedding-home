@@ -19,6 +19,7 @@
 				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.carousel.min.css">
 				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.theme.default.min.css">
 				<link rel="stylesheet" href="/bigday/css/big-day.css">
+				<link rel="stylesheet" href="/css/chat.css">
 				<script src="/dist/vendor.js"></script>
 				<script src="/bigday/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 		</head>
@@ -227,7 +228,7 @@
 				</ul>
 			</section>
 
-			<section id="gallery" class="section-gallery bg-light-gray">
+			<section id="gallery" class="section-gallery bg-light-gray" style="margin-bottom: 0px;">
 				<div class="gallery-overlay">
 					<div class="gallery-modal">
 						<ul class="modal-nav">
@@ -288,16 +289,23 @@
 					</#list>
 				</div>
 			</section>
-            <div id="disqus_thread" class="article-comments"></div>
-            <script>
-                (function() {
-                    var d = document, s = d.createElement('script');
-                    s.src = '//yisvpjh.disqus.com/embed.js';
-                    s.setAttribute('data-timestamp', +new Date());
-                    (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="widget-box">
+                        <div class="widget-header">
+                            <h4 class="widget-title lighter smaller">
+                                <i class="ace-icon fa fa-comment blue"></i>
+                                익카오톡
+                            </h4>
+                        </div>
+                        <div class="widget-body">
+                            <div class="widget-main no-padding label-">
+                                <chat-dialog>loading..</chat-dialog>
+                            </div><!-- /.widget-main -->
+                        </div><!-- /.widget-body -->
+                    </div>
+                </div>
+            </div>
 			<footer>
 				<div class="footer-bg parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main1.jpg" data-parallax-factor=".8"></div>
 				<div class="heart">
@@ -320,5 +328,7 @@
 				<a href="#hero" class="scroll-link scroll-up"><i class="fa fa-arrow-up"></i></a>
 			</footer>
             <script src="/dist/bigday.js"></script>
+            <script src="/dist/polyfill.js"></script>
+            <script src="/dist/chat.js"></script>
 		</body>
 </html>

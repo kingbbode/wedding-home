@@ -31,6 +31,7 @@ module.exports = {
             path.join(BIG_DAY, 'js/main.js')
         ],
         app : path.join(APP, 'app.main.js'),
+        chat : path.join(APP, 'chat.main.js'),
     },
     output: {
         path: path.join(RESOURCES, 'dist'),
