@@ -11,7 +11,7 @@ import {Message} from "./message/message";
           [message]="message">
         </message-box>
     </div>
-    <div class="form-actions">
+    <div class="form-actions" style="margin-bottom: 0px;">
         <div class="row">
             <div class="col-sm-3">
                 <div class="input-group">

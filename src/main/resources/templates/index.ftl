@@ -54,9 +54,6 @@
 							</svg>
 						</div>
 					</div>
-					<div class="cta">
-						<a href="#events" class="btn btn-primary scroll-link">Events</a>
-					</div>
 				</div>
 				<div class="scroll-down"></div>
 			</section>
@@ -66,7 +63,7 @@
 					<button class="open-menu">Menu</button>
 					<ul class="menu">
 						<li><a class="scroll-link" href="#hero">Home</a></li>
-						<li><a class="scroll-link" href="#couple">We</a></li>
+						<li><a class="scroll-link" href="#couple">Couple</a></li>
 						<li><a class="scroll-link" href="#story">Story</a></li>
 						<li><a class="scroll-link" href="#invite">Invite</a></li>
 						<li><a class="scroll-link" href="#events">Events</a></li>
@@ -77,15 +74,15 @@
 
 			<section id="couple" class="section-couple">
 				<div class="flowers"></div>
-				<h2>We</h2>
+				<h2>Couple</h2>
 				<div class="bride-and-groom flex-responsive">
 					<div class="groom">
 						<div class="profile-pic animation-chain" data-animation="fadeInUp">
 							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
 						</div>
 						<h3>유익선</h3>
-						<h4>Yu Ik Seon</h4>
-                        <ul class="social">
+						<h3 style="font-family: 'Dancing Script', cursive;margin-bottom: 0px">Yu Ik Seon</h3>
+                        <ul class="social" style="margin-top: 0px">
                             <li><a href="tel:010-9996-0322"><i class="fa fa-phone-square"></i></a></li>
                             <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-square"></i></a></li>
                         </ul>
@@ -95,8 +92,8 @@
 							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/park.jpg" alt="">
 						</div>
 						<h3>박진희</h3>
-						<h4>Pack Jin Hee</h4>
-                        <ul class="social">
+						<h3 style="font-family: 'Dancing Script', cursive;margin-bottom: 0px">Pack Jin Hee</h3>
+                        <ul class="social" style="margin-top: 0px">
                             <li><a href="tel:010-9996-0322"><i class="fa fa-phone-square"></i></a></li>
                             <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-square"></i></a></li>
                         </ul>
@@ -131,7 +128,7 @@
 							<path d="M27.6617245,0 C23.6258225,0 20.1656768,2.45818023 18.6933857,5.95832977 C17.2210947,2.45818023 13.760949,0 9.72542087,0 C4.68979662,0 0.54809007,3.82653606 0.0500982738,8.73093275 C0.0168240472,9.05769313 0,9.38968766 0,9.72542087 C0,21.5418839 14.5015809,27.1188686 18.6933857,35 C22.8851906,27.1192424 37.3867715,21.5422577 37.3867715,9.72542087 C37.3867715,9.38968766 37.3699474,9.05769313 37.3366732,8.73093275 C36.8383076,3.82653606 32.6969749,0 27.6617245,0 Z"></path>
 						</svg>
 						<div class="desc animation-chain" data-animation="fadeIn">
-							<p>2014- 12월. "로맨틱 겨울"의 시작</p>
+							<p>12월. "로맨틱 겨울"의 시작</p>
 						</div>
 					</li>
 					<li class="flex-responsive">
@@ -145,7 +142,7 @@
 							<path d="M27.6617245,0 C23.6258225,0 20.1656768,2.45818023 18.6933857,5.95832977 C17.2210947,2.45818023 13.760949,0 9.72542087,0 C4.68979662,0 0.54809007,3.82653606 0.0500982738,8.73093275 C0.0168240472,9.05769313 0,9.38968766 0,9.72542087 C0,21.5418839 14.5015809,27.1188686 18.6933857,35 C22.8851906,27.1192424 37.3867715,21.5422577 37.3867715,9.72542087 C37.3867715,9.38968766 37.3699474,9.05769313 37.3366732,8.73093275 C36.8383076,3.82653606 32.6969749,0 27.6617245,0 Z"></path>
 						</svg>
 						<div class="desc animation-chain" data-animation="fadeIn">
-							<p>2015- "우리"라는 단어로 함께 보낸 사계절</p>
+							<p>"우리"라는 단어로 함께 보낸 사계절</p>
 						</div>
 					</li>
 					<li class="flex-responsive">
@@ -159,7 +156,7 @@
 							<path d="M27.6617245,0 C23.6258225,0 20.1656768,2.45818023 18.6933857,5.95832977 C17.2210947,2.45818023 13.760949,0 9.72542087,0 C4.68979662,0 0.54809007,3.82653606 0.0500982738,8.73093275 C0.0168240472,9.05769313 0,9.38968766 0,9.72542087 C0,21.5418839 14.5015809,27.1188686 18.6933857,35 C22.8851906,27.1192424 37.3867715,21.5422577 37.3867715,9.72542087 C37.3867715,9.38968766 37.3699474,9.05769313 37.3366732,8.73093275 C36.8383076,3.82653606 32.6969749,0 27.6617245,0 Z"></path>
 						</svg>
 						<div class="desc animation-chain" data-animation="fadeIn">
-							<p>2016- 힘들고 지쳐도 "미래"를 위해 서로를 믿고 의지</p>
+							<p>힘들고 지쳐도 "미래"를 위해 서로를 믿고 의지</p>
 						</div>
 					</li>
 					<li class="flex-responsive">
@@ -173,23 +170,26 @@
 							<path d="M27.6617245,0 C23.6258225,0 20.1656768,2.45818023 18.6933857,5.95832977 C17.2210947,2.45818023 13.760949,0 9.72542087,0 C4.68979662,0 0.54809007,3.82653606 0.0500982738,8.73093275 C0.0168240472,9.05769313 0,9.38968766 0,9.72542087 C0,21.5418839 14.5015809,27.1188686 18.6933857,35 C22.8851906,27.1192424 37.3867715,21.5422577 37.3867715,9.72542087 C37.3867715,9.38968766 37.3699474,9.05769313 37.3366732,8.73093275 C36.8383076,3.82653606 32.6969749,0 27.6617245,0 Z"></path>
 						</svg>
 						<div class="desc animation-chain" data-animation="fadeIn">
-							<p>2017- 6월. 웃는 모습이 예쁜 진희와 그 웃는 얼굴을 유난히도 좋아하는 익선이가 "결혼"을 합니다.</p>
+							<p>6월. 웃는 모습이 예쁜 진희와</p>
+							<p>그 웃는 얼굴을 유난히도 좋아하는 익선이가 </p>
+							<p>"결혼"을 합니다.</p>
 						</div>
 					</li>
 				</ul>
 			</section>
 
-            <section id="invite" class="section-hero" style="background-color: #4A4A4A">
-                <div class="announcement-wrapper">
+            <section id="invite" class="section-hero bg-light-gray section-couple" style="padding-top: 72px;">
+                <div class="flowers"></div>
+                <div class="announcement-wrapper">ㅋ
                     <div class="announcement animation-chain" data-animation="fadeInUp">
 
                         <div class="decor decor-inverse">
                             <svg width="281px" height="51px" viewBox="0 0 281 51">
-                                <use class="shape-decor" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
+                                <use class="shape-decor" style="fill:#656060" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
                             </svg>
                         </div>
-                        <h2 style="padding-top: 10px;padding-bottom: 10px;font-family: sans-serif">6.24 토 11시</h2>
-                        <h1 style="padding-right:100px;padding-left:100px"><span class="name">익선</span>
+                        <h2 style="color:#656060;padding-top: 10px;padding-bottom: 10px;font-family: sans-serif">6.24 토 11시</h2>
+                        <h1 style="color:#656060;padding-right:100px;padding-left:100px"><span class="name">익선</span>
                             <div class="heart">
                                 <svg width="38px" height="35px" viewBox="0 0 38 35">
                                     <use class="shape-heart" xlink:href="/bigday/img/heart.svg#shape-heart"></use>
@@ -197,21 +197,19 @@
                             </div>
 							<span class="name">진희</span>
 						</h1>
-                        <h3 style="margin-top:0px;padding-bottom: 10px;font-family: sans-serif">신도림 웨딩시티 11층 그랜드볼룸홀</h3>
+                        <h3 style="margin-top:0;padding-bottom: 10px;font-family: sans-serif">신도림 웨딩시티 11층 그랜드볼룸홀</h3>
                         <div class="decor">
                             <svg width="281px" height="51px" viewBox="0 0 281 51">
-                                <use class="shape-decor" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
+                                <use class="shape-decor" style="fill:#656060" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
                             </svg>
                         </div>
-                        <h5>처음 함께한 저녁식사를 또렷이 기억합니다.</h5>
+                        <h5 style="margin-top: 30px;">처음 함께한 저녁식사를 또렷이 기억합니다.</h5>
                         <h5>웃는 모습이 유난히 예쁜 진희,</h5>
                         <h5>그 웃는 모습을 유난히도 좋아하던 익선.</h5>
                         <h5>2년 반의 연애를 마치고, </h5>
                         <h5>언제나 함께 웃을 수 있는 부부가 되려 합니다.</h5>
                         <h5>소중한 분들과 함께라면 저희에겐</h5>
                         <h5>더없는 기쁨과 축복이 될 것입니다.</h5>
-                    </div>
-
                 </div>
             </section>
 
@@ -233,8 +231,9 @@
 						<div class="event-details animation-chain" data-animation="fadeInUp">
 							<h3>Wedding Ceremony</h3>
 							<ul class="event-info">
-								<li><span class="lnr lnr-map-marker"></span>서울 구로구 경인로 610 신도림S컨벤션웨딩홀 8F </li>
-								<li><span class="lnr lnr-clock"></span>9AM - 10:30AM, June 24, 2017</li>
+                                <li><span class="lnr lnr-map-marker"></span>신도림 웨딩시티</li>
+								<li>서울시 구로구 새말로97 신도림 테크노마트 11층 웨딩시티, 그랜드볼룸 홀</li>
+								<li><span class="lnr lnr-clock"></span>2017년 6월 20일 토요일 11시</li>
 							</ul>
 							<div class="desc">
 								<p>신도림역에서 뭐 이어져있고, 몇번 출구쪽으로 오세용.</p>
@@ -301,23 +300,27 @@
 					</#list>
 				</div>
 			</section>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="widget-box">
-                        <div class="widget-header">
-                            <h4 class="widget-title lighter smaller">
-                                <i class="ace-icon fa fa-comment blue"></i>
-                                익카오톡
-                            </h4>
-                        </div>
-                        <div class="widget-body">
-                            <div class="widget-main no-padding label-">
-                                <chat-dialog>loading..</chat-dialog>
-                            </div><!-- /.widget-main -->
-                        </div><!-- /.widget-body -->
-                    </div>
-                </div>
-            </div>
+            <section id="invite" style="margin-top: 0;margin-bottom: 0;padding: 0 0 0 0">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div class="col-sm-8">
+						<div class="widget-box" style="margin-top: 0;">
+							<div class="widget-header">
+								<h4 class="widget-title lighter smaller">
+									<i class="ace-icon fa fa-comment blue"></i>
+									익카오톡
+								</h4>
+							</div>
+							<div class="widget-body">
+								<div class="widget-main no-padding label-">
+									<chat-dialog>loading..</chat-dialog>
+								</div><!-- /.widget-main -->
+							</div><!-- /.widget-body -->
+						</div>
+					</div>
+                    <div class="col-sm-2"></div>
+				</div>
+            </section>
 			<footer>
 				<div class="footer-bg parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main1.jpg" data-parallax-factor=".8"></div>
 				<div class="heart">
