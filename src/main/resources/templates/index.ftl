@@ -27,11 +27,10 @@
 			<div class="preloader"></div>
 			<section id="hero" class="section-hero">
 				<div class="owl-carousel owl-full-width owl-theme">
-					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main1.jpg" alt="" class="img-as-bg"></div>
-					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main2.jpg" alt="" class="img-as-bg"></div>
-					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main3.jpg" alt="" class="img-as-bg"></div>
-					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main4.jpg" alt="" class="img-as-bg"></div>
-					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main5.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main1pic4.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main2pic5.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main3.jpg" alt="" class="img-as-bg"></div>
+					<div class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main4pic6.jpg" alt="" class="img-as-bg"></div>
 				</div>
 				<div class="announcement-wrapper">
 					<div class="announcement animation-chain" data-animation="fadeInUp">
@@ -65,9 +64,9 @@
 						<li><a class="scroll-link" href="#hero">Home</a></li>
 						<li><a class="scroll-link" href="#couple">Couple</a></li>
 						<li><a class="scroll-link" href="#story">Story</a></li>
-						<li><a class="scroll-link" href="#invite">Invite</a></li>
 						<li><a class="scroll-link" href="#events">Events</a></li>
 						<li><a class="scroll-link" href="#gallery">Gallery</a></li>
+						<li><a class="scroll-link" href="#talk">Talk</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -78,7 +77,7 @@
 				<div class="bride-and-groom flex-responsive">
 					<div class="groom">
 						<div class="profile-pic animation-chain" data-animation="fadeInUp">
-							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
+							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/yu.jpg" alt="">
 						</div>
 						<h3>유익선</h3>
 						<h3 style="font-family: 'Dancing Script', cursive;margin-bottom: 0px">Yu Ik Seon</h3>
@@ -89,7 +88,7 @@
 					</div>
 					<div class="bride">
 						<div class="profile-pic animation-chain" data-animation="fadeInUp">
-							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/park.jpg" alt="">
+							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/park.jpg" alt="">
 						</div>
 						<h3>박진희</h3>
 						<h3 style="font-family: 'Dancing Script', cursive;margin-bottom: 0px">Pack Jin Hee</h3>
@@ -104,12 +103,12 @@
 			<div class="separator">
 				<div class="separator-carousel">
 					<div class="owl-carousel owl-theme">
-						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic.jpg" alt="" class="img-as-bg"></a>
-						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic1.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic1.jpg" alt="" class="img-as-bg"></a>
-						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic2.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic2.jpg" alt="" class="img-as-bg"></a>
-						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic3.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic3.jpg" alt="" class="img-as-bg"></a>
-						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic4.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic4.jpg" alt="" class="img-as-bg"></a>
-						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main5.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main5.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m1.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m2.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic1.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m3.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic2.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m4.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic3.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m5.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/pic4.jpg" alt="" class="img-as-bg"></a>
+						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m6.jpg" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main5.jpg" alt="" class="img-as-bg"></a>
 					</div>
 				</div>
 			</div>
@@ -120,7 +119,7 @@
 					<li class="flex-responsive">
 						<div class="meta">
 							<div class="timeline-thumbnail">
-								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
+								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main1pic4.jpg" alt="">
 							</div>
 							<div class="date">2014</div>
 						</div>
@@ -134,7 +133,7 @@
 					<li class="flex-responsive">
 						<div class="meta">
 							<div class="timeline-thumbnail">
-								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
+								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main2pic5.jpg" alt="">
 							</div>
 							<div class="date">2015</div>
 						</div>
@@ -148,7 +147,7 @@
 					<li class="flex-responsive">
 						<div class="meta">
 							<div class="timeline-thumbnail">
-								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
+								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/pic6.jpg" alt="">
 							</div>
 							<div class="date">2016</div>
 						</div>
@@ -162,7 +161,7 @@
 					<li class="flex-responsive">
 						<div class="meta">
 							<div class="timeline-thumbnail">
-								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/yu.jpg" alt="">
+								<img class="img-as-bg" src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main4pic7.jpg" alt="">
 							</div>
 							<div class="date">2017</div>
 						</div>
@@ -178,9 +177,13 @@
 				</ul>
 			</section>
 
-            <section id="invite" class="section-hero bg-light-gray section-couple" style="padding-top: 72px;">
+            <section id="events" class="section-events" style="padding-bottom: 0;margin-bottom: 0">
+                <h2>Events</h2>
+			</section>
+
+            <section class="section-hero section-couple" style="border-top: 0;border-bottom: 0;padding-top: 72px;background-color: #FFFFFF">
                 <div class="flowers"></div>
-                <div class="announcement-wrapper">ㅋ
+                <div class="announcement-wrapper">
                     <div class="announcement animation-chain" data-animation="fadeInUp">
 
                         <div class="decor decor-inverse">
@@ -195,8 +198,8 @@
                                     <use class="shape-heart" xlink:href="/bigday/img/heart.svg#shape-heart"></use>
                                 </svg>
                             </div>
-							<span class="name">진희</span>
-						</h1>
+                            <span class="name">진희</span>
+                        </h1>
                         <h3 style="margin-top:0;padding-bottom: 10px;font-family: sans-serif">신도림 웨딩시티 11층 그랜드볼룸홀</h3>
                         <div class="decor">
                             <svg width="281px" height="51px" viewBox="0 0 281 51">
@@ -210,21 +213,10 @@
                         <h5>언제나 함께 웃을 수 있는 부부가 되려 합니다.</h5>
                         <h5>소중한 분들과 함께라면 저희에겐</h5>
                         <h5>더없는 기쁨과 축복이 될 것입니다.</h5>
-                </div>
+                    </div>
             </section>
 
-            <div class="separator parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/dday.jpg" data-parallax-factor=".8">
-				<div class="flowers"></div>
-				<h2 data-after-countdown="We got married on June 24, 2017.">Counting Down to Our Big Day</h2>
-				<div class="decor"><i class="fa fa-heart-o"></i></div>
-				<div class="countdown-area" data-final-date="2017/06/24 14:00:00" data-after-countdown="Thank you for attending our wedding!"></div>
-			</div>
-
-			<section id="events" class="section-events">
-				<h2>Events</h2>
-				<div class="section-intro">
-					<p>결혼식에 대한 소개를 뭐 간단히 하구.</p>
-				</div>
+			<section class="section-events" style="margin-top:0;padding-top: 0">
 				<ul class="event-list">
 					<li class="flex-responsive">
 						<div class="event-thumbnail"><img class="img-as-bg" src="/img/event/holl.jpg" alt=""></div>
@@ -235,16 +227,20 @@
 								<li>서울시 구로구 새말로97 신도림 테크노마트 11층 웨딩시티, 그랜드볼룸 홀</li>
 								<li><span class="lnr lnr-clock"></span>2017년 6월 20일 토요일 11시</li>
 							</ul>
-							<div class="desc">
-								<p>신도림역에서 뭐 이어져있고, 몇번 출구쪽으로 오세용.</p>
-							</div>
 							<div class="cta">
-								<a href="http://place.map.daum.net/12143353" target="_blank" class="btn btn-primary">지도보기</a>
+								<a href="http://www.tmwedding.co.kr/page/sub6" target="_blank" class="btn btn-primary">오시는 길 자세히</a>
 							</div>
 						</div>
 					</li>
 				</ul>
 			</section>
+
+            <div class="separator parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/count.jpg" data-parallax-factor=".8">
+                <div class="flowers"></div>
+                <h2 data-after-countdown="We got married on June 24, 2017.">Counting Down to Our Big Day</h2>
+                <div class="decor"><i class="fa fa-heart-o"></i></div>
+                <div class="countdown-area" data-final-date="2017/06/24 14:00:00" data-after-countdown="Thank you for attending our wedding!"></div>
+            </div>
 
 			<section id="gallery" class="section-gallery bg-light-gray" style="margin-bottom: 0px;">
 				<div class="gallery-overlay">
@@ -300,7 +296,7 @@
 					</#list>
 				</div>
 			</section>
-            <section id="invite" style="margin-top: 0;margin-bottom: 0;padding: 0 0 0 0">
+            <section id="talk" style="margin-top: 0;margin-bottom: 0;padding: 0 0 0 0">
 				<div class="row">
 					<div class="col-sm-2"></div>
 					<div class="col-sm-8">
@@ -322,7 +318,7 @@
 				</div>
             </section>
 			<footer>
-				<div class="footer-bg parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/main1.jpg" data-parallax-factor=".8"></div>
+				<div class="footer-bg parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/foot.jpg" data-parallax-factor=".8"></div>
 				<div class="heart">
 					<svg viewBox="0 0 38 35">
 						<use class="shape-heart" xlink:href="/bigday/img/heart.svg#shape-heart"></use>
