@@ -20,7 +20,7 @@ import {Message} from "./message/message";
             </div>
         </div>
         <div class="input-group">
-            <input id="message" type="text" placeholder="내용" class="form-control" [(ngModel)]="newMessage.content" (keyup.enter)="save()">
+            <input id="message" type="text" placeholder="내용" class="form-control" [(ngModel)]="newMessage.content">
             <span class="input-group-btn">
                 <button class="btn btn-sm btn-info no-radius" type="button" id="sendMessage" (click)="save()">
                     <i class="ace-icon fa fa-share"></i>
@@ -43,8 +43,8 @@ export class ChatComponent implements OnInit {
 
     ngOnInit(){
         this.newMessage = new Message();
-        this.manMessage = new Message("신랑 유익선", "땡큐!");
-        this.girlMessage = new Message("신부 박진희", "감사합니다^^");
+        this.manMessage = new Message("유익선", "땡큐!");
+        this.girlMessage = new Message("박진희", "감사합니다^^");
         this.messageService.getList()
             .subscribe(
                 messages => {
@@ -86,13 +86,13 @@ export class ChatComponent implements OnInit {
                             that.refreshScroll();
                         },0);
 
-                    }, 300);
+                    }, 1000);
                     setTimeout(function(){
                         that.messages.push(that.girlMessage);
                         setTimeout(function(){
                             that.refreshScroll();
                         },0);
-                    }, 700);
+                    }, 1600);
                     this.newMessage.init();
                 },
                 err => {
