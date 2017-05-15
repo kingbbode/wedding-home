@@ -17,10 +17,9 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'org.springframework.boot'
-apply plugin: 'war'
 apply plugin: "io.spring.dependency-management"
 
-war {
+jar {
 	baseName = 'wedding-web'
 	version = '1.0.0-' + new Date().format("yyyyMMddHHMM")
 }
@@ -43,6 +42,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile("org.springframework.cloud:spring-cloud-aws-context:${springCloudVersion}")
 	compile("commons-io:commons-io:2.4")
+	runtime('com.h2database:h2')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
