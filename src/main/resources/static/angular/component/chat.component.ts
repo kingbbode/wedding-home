@@ -78,20 +78,16 @@ export class ChatComponent implements OnInit {
             .subscribe(
                 () => {
                     this.messages.push(new Message(this.newMessage.name, this.newMessage.content));
-                    this.refreshScroll();
+                    setTimeout(this.refreshScroll, 0);
                     let that = this;
                     setTimeout(function(){
                         that.messages.push(that.manMessage);
-                        setTimeout(function(){
-                            that.refreshScroll();
-                        },0);
+                        setTimeout(that.refreshScroll,0);
 
                     }, 1000);
                     setTimeout(function(){
                         that.messages.push(that.girlMessage);
-                        setTimeout(function(){
-                            that.refreshScroll();
-                        },0);
+                        setTimeout(that.refreshScroll,0);
                     }, 1600);
                     this.newMessage.init();
                 },
