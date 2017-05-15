@@ -6,7 +6,7 @@ import {Message} from "./message";
     template : `
     <div class="itemdiv dialogdiv">
         <div class="user">
-            <img *ngIf="message.name=='박진희'" src="/img/avata/pack.png">
+            <img *ngIf="message.name=='박진희'" src="/img/avata/park.png">
             <img *ngIf="message.name=='유익선'" src="/img/avata/yu.png">
             <img *ngIf="message.name!='유익선'&&message.name!='박진희'" src="/img/avata/user.png">
         </div>
