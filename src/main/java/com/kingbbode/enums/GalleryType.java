@@ -5,5 +5,5 @@ package com.kingbbode.enums;
  */
 public enum GalleryType {
     IMAGE,
-    VEDIO
+    VIDEO
 }
