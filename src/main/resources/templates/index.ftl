@@ -5,11 +5,13 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 		<head>
 				<meta charset="utf-8">
-				<meta http-equiv="X-UA-Compatible" content="IE=edge">
 				<title>결혼식을 축하주세요!</title>
 				<meta name="description" content="">
-				<meta name="viewport" content="width=device-width, initial-scale=1">
-				<link rel="stylesheet" href="/bigday/css/bootstrap.min.css">
+				<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,minimum-scale=1.0,user-scalable=yes,target-densitydpi=medium-dpi" />
+				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+				<meta name="og:description" content='처음 함께한 저녁식사를 또렷이 기억합니다.웃는 모습이 유난히 예쁜 진희.그 웃는 모습을 유난히도 좋아하던 익선.2년 반의 연애를 마치고,언제나 함께 웃을 수 있는 부부가 되려 합니다.소중한 분들과 함께라면 저희에겐더없는 기쁨과 축복이 될 것입니다.' />
+				<meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main1pic4.JPG">
+            	<link rel="stylesheet" href="/bigday/css/bootstrap.min.css">
 				<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700%7CFira+Sans:400,400i,700,700i&subset=latin-ext" rel="stylesheet">
 				<link rel="stylesheet" href="/bigday/fonts/linearicons/web-font/style.css">
 				<link rel="stylesheet" href="/bigday/fonts/et-line-font/style.css">
@@ -20,6 +22,7 @@
 				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.theme.default.min.css">
 				<link rel="stylesheet" href="/bigday/css/big-day.css">
 				<link rel="stylesheet" href="/css/chat.css">
+            	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xpressengine/xeicon@2.3.1/xeicon.min.css">
 				<script src="/dist/vendor.js"></script>
 				<script src="/bigday/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 		</head>
@@ -82,8 +85,8 @@
 						<h3>유익선</h3>
 						<h3 style="font-family: 'Dancing Script', cursive;margin-bottom: 0px">Yu Ik Seon</h3>
                         <ul class="social" style="margin-top: 0px">
-                            <li><a href="tel:010-9996-0322"><i class="fa fa-phone-square"></i></a></li>
-                            <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-square"></i></a></li>
+                            <li style="width: 55px;"><a href="tel:010-9996-0322"><i class="xi-call xi-2x"></i></a></li>
+                            <li style="width: 55px;"><a href="sms:010-9996-0322"><i class="xi-mail xi-2x"></i></a></li>
                         </ul>
 					</div>
 					<div class="bride">
@@ -93,8 +96,8 @@
 						<h3>박진희</h3>
 						<h3 style="font-family: 'Dancing Script', cursive;margin-bottom: 0px">Pack Jin Hee</h3>
                         <ul class="social" style="margin-top: 0px">
-                            <li><a href="tel:010-9996-0322"><i class="fa fa-phone-square"></i></a></li>
-                            <li><a href="sms:010-9996-0322"><i class="fa fa-envelope-square"></i></a></li>
+                            <li style="width: 55px;"><a href="tel:010-9199-4644"><i class="xi-call xi-2x"></i></a></li>
+                            <li style="width: 55px;"><a href="sms:010-9199-4644"><i class="xi-mail xi-2x"></i></a></li>
                         </ul>
 					</div>
 				</div>
@@ -192,7 +195,8 @@
                             </svg>
                         </div>
                         <h2 style="color:#656060;padding-top: 10px;padding-bottom: 10px;font-family: sans-serif">6.24 토 11시</h2>
-                        <h1 style="color:#656060;padding-right:100px;padding-left:100px"><span class="name">익선</span>
+                        <h1 style="color:#656060;padding-right:80px;padding-left:80px">
+							<span class="name">익선</span>
                             <div class="heart">
                                 <svg width="38px" height="35px" viewBox="0 0 38 35">
                                     <use class="shape-heart" xlink:href="/bigday/img/heart.svg#shape-heart"></use>
@@ -200,7 +204,8 @@
                             </div>
                             <span class="name">진희</span>
                         </h1>
-                        <h3 style="margin-top:0;padding-bottom: 10px;font-family: sans-serif">신도림 웨딩시티 11층 그랜드볼룸홀</h3>
+                        <h3 style="margin-top:0;font-family: sans-serif">신도림 웨딩시티 11층</h3>
+                        <h3 style="margin-top:0;padding-bottom: 10px;font-family: sans-serif">그랜드볼룸홀</h3>
                         <div class="decor">
                             <svg width="281px" height="51px" viewBox="0 0 281 51">
                                 <use class="shape-decor" style="fill:#656060" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
@@ -216,7 +221,7 @@
                     </div>
             </section>
 
-			<section class="section-events" style="margin-top:0;padding-top: 0">
+			<section class="section-events" style="margin-top:0;margin-bottom: 0;padding-top: 0">
 				<ul class="event-list">
 					<li class="flex-responsive">
 						<div class="event-thumbnail"><img class="img-as-bg" src="/img/event/holl.jpg" alt=""></div>
@@ -234,7 +239,9 @@
 					</li>
 				</ul>
 			</section>
-
+			<section class="section-events" style="margin-top:0;margin-bottom: 0;padding-top: 0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.0043770859215!2d126.88796054860667!3d37.507185899595406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9e5d5d464d2d%3A0x5619ad3e9f14195b!2z7ISc7Jq47Yq567OE7IucIOq1rOuhnOq1rCDsg4jrp5DroZwgOTc!5e0!3m2!1sko!2skr!4v1494935336752" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
             <div class="separator parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/count.JPG" data-parallax-factor=".8">
                 <div class="flowers"></div>
                 <h2 data-after-countdown="We got married on June 24, 2017.">Counting Down to Our Big Day</h2>
@@ -268,7 +275,7 @@
 						<#if gallery.type == 'IMAGE'>
                             <img src="${images[0]}" alt="">
 						<#else>
-                            <img src="/bigday/img/blank.png" alt="">
+                            <img src="/bigday/img/blankb.png" alt="">
 						</#if>
                         <div class="gallery-hidden">
 						<#if gallery.type == 'IMAGE'>
@@ -296,7 +303,7 @@
 					</#list>
 				</div>
 			</section>
-            <section id="talk" style="margin-top: 0;margin-bottom: 0;padding: 0 0 0 0">
+            <section id="talk" style="margin: 0 5px 0 5px;padding: 0 0 0 0">
 				<div class="row">
 					<div class="col-sm-2"></div>
 					<div class="col-sm-8">
@@ -327,13 +334,9 @@
 				<h2>Save the date</h2>
 				<h3>유익선 & 박진희</h3>
 				<ul class="social">
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-					<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-					<li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-					<li><a href="#"><i class="fa fa-flickr"></i></a></li>
+					<li><a href="javascript:;"><i id="kakao-link-btn" class="xi-kakaotalk"></i></a></li>
+					<li><a href="http://line.me/R/msg/text/?처음 함께한 저녁식사를 또렷이 기억합니다.웃는 모습이 유난히 예쁜 진희.그 웃는 모습을 유난히도 좋아하던 익선.2년 반의 연애를 마치고,언제나 함께 웃을 수 있는 부부가 되려 합니다.소중한 분들과 함께라면 저희에겐더없는 기쁨과 축복이 될 것입니다.\nhttp://jinheemarriedikseon.xyz"><i id="line-link-btn" class="xi-line-messenger"></i></a></li>
+					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://jinheemarriedikseon.xyz" target="_blank"><i id="facebook-link-btn" class="xi-facebook-official"></i></a></li>
 				</ul>
 				<p>Copyright 2017. All rights reserved.</p>
 				<a href="#hero" class="scroll-link scroll-up"><i class="fa fa-arrow-up"></i></a>
@@ -341,5 +344,24 @@
             <script src="/dist/bigday.js"></script>
             <script src="/dist/polyfill.js"></script>
             <script src="/dist/chat.js"></script>
+            <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+            <script type='text/javascript'>
+                //<![CDATA[
+                Kakao.init('80e6e2c9c34038d231915cb664a129d5');
+                Kakao.Link.createTalkLinkButton({
+                    container: '#kakao-link-btn',
+                    label: '결혼 축하하기',
+                    image: {
+                        src: 'https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main1pic4.JPG',
+                        width: '300',
+                        height: '200'
+                    },
+                    webButton: {
+                        text: '공유',
+                        url: 'http://jinheemarriedikseon.xyz'
+                    }
+                });
+                //]]>
+            </script>
 		</body>
 </html>
