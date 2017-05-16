@@ -77,14 +77,14 @@
 			<section id="couple" class="section-couple">
 				<div class="flowers"></div>
 				<h2>Couple</h2>
-				<div class="bride-and-groom flex-responsive">
+				<div class="bride-and-groom flex-responsive" style="margin-top:0">
 					<div class="groom">
 						<div class="profile-pic animation-chain" data-animation="fadeInUp">
 							<img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/yu.JPG" alt="">
 						</div>
 						<h3>유익선</h3>
 						<h3 style="font-family: 'Dancing Script', cursive;margin-bottom: 0px">Yu Ik Seon</h3>
-                        <ul class="social" style="margin-top: 0px">
+                        <ul class="social" style="margin-bottom: 0">
                             <li style="width: 55px;"><a href="tel:010-9996-0322"><i class="xi-call xi-2x"></i></a></li>
                             <li style="width: 55px;"><a href="sms:010-9996-0322"><i class="xi-mail xi-2x"></i></a></li>
                         </ul>
@@ -95,7 +95,7 @@
 						</div>
 						<h3>박진희</h3>
 						<h3 style="font-family: 'Dancing Script', cursive;margin-bottom: 0px">Pack Jin Hee</h3>
-                        <ul class="social" style="margin-top: 0px">
+                        <ul class="social" style="margin-bottom: 0">
                             <li style="width: 55px;"><a href="tel:010-9199-4644"><i class="xi-call xi-2x"></i></a></li>
                             <li style="width: 55px;"><a href="sms:010-9199-4644"><i class="xi-mail xi-2x"></i></a></li>
                         </ul>
@@ -103,7 +103,7 @@
 				</div>
 			</section>
 
-			<div class="separator">
+			<div class="separator" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0">
 				<div class="separator-carousel">
 					<div class="owl-carousel owl-theme">
 						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m1.JPG" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m1.JPG" alt="" class="img-as-bg"></a>
@@ -281,7 +281,9 @@
 						<#if gallery.type == 'IMAGE'>
                             <ul class="image-list">
 								<#list images as image>
-                                <li><img src="/bigday/img/blank.png" data-src="${image}" alt=""></li>
+									<#if image != ''>
+                                		<li><img src="/bigday/img/blank.png" data-src="${image}" alt=""></li>
+									</#if>
                             	</#list>
 							</ul>
 						<#else>
