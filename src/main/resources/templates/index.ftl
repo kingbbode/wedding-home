@@ -216,8 +216,18 @@
                         <h5>언제나 함께 웃을 수 있는 부부가 되려 합니다.</h5>
                         <h5>소중한 분들과 함께라면 저희에겐</h5>
                         <h5>더없는 기쁨과 축복이 될 것입니다.</h5>
+                        <div class="decor decor-inverse">
+                            <svg width="281px" height="51px" viewBox="0 0 281 51">
+                                <use class="shape-decor" style="fill:#656060" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
+                            </svg>
+                        </div>
 						<h4>유강민 김정자의 장남 익선</h4>
 						<h4>박용기 김해련의 장녀 진희</h4>
+                        <div class="decor">
+                            <svg width="281px" height="51px" viewBox="0 0 281 51">
+                                <use class="shape-decor" style="fill:#656060" xlink:href="/bigday/img/decor.svg#shape-decor"></use>
+                            </svg>
+                        </div>
                     </div>
             </section>
 
