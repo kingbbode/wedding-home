@@ -23,7 +23,7 @@ import {Message} from "./message/message";
             <input id="message" type="text" placeholder="내용" class="form-control" [(ngModel)]="newMessage.content">
             <span class="input-group-btn">
                 <button class="btn btn-sm btn-info no-radius" type="button" id="sendMessage" (click)="save()">
-                    <i class="ace-icon fa fa-share"></i>
+                    <i class="xi-share"></i>
                     Send
                 </button>
             </span>

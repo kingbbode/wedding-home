@@ -130,7 +130,7 @@
 							<path d="M27.6617245,0 C23.6258225,0 20.1656768,2.45818023 18.6933857,5.95832977 C17.2210947,2.45818023 13.760949,0 9.72542087,0 C4.68979662,0 0.54809007,3.82653606 0.0500982738,8.73093275 C0.0168240472,9.05769313 0,9.38968766 0,9.72542087 C0,21.5418839 14.5015809,27.1188686 18.6933857,35 C22.8851906,27.1192424 37.3867715,21.5422577 37.3867715,9.72542087 C37.3867715,9.38968766 37.3699474,9.05769313 37.3366732,8.73093275 C36.8383076,3.82653606 32.6969749,0 27.6617245,0 Z"></path>
 						</svg>
 						<div class="desc animation-chain" data-animation="fadeIn">
-							<p>12월. "로맨틱 겨울"의 시작</p>
+							<p>12월. 저희 둘만의 <strong style="color: red;">로맨틱 겨울"</strong>의 시작이였어요.</p>
 						</div>
 					</li>
 					<li class="flex-responsive">
@@ -144,7 +144,7 @@
 							<path d="M27.6617245,0 C23.6258225,0 20.1656768,2.45818023 18.6933857,5.95832977 C17.2210947,2.45818023 13.760949,0 9.72542087,0 C4.68979662,0 0.54809007,3.82653606 0.0500982738,8.73093275 C0.0168240472,9.05769313 0,9.38968766 0,9.72542087 C0,21.5418839 14.5015809,27.1188686 18.6933857,35 C22.8851906,27.1192424 37.3867715,21.5422577 37.3867715,9.72542087 C37.3867715,9.38968766 37.3699474,9.05769313 37.3366732,8.73093275 C36.8383076,3.82653606 32.6969749,0 27.6617245,0 Z"></path>
 						</svg>
 						<div class="desc animation-chain" data-animation="fadeIn">
-							<p>"우리"라는 단어로 함께 보낸 사계절</p>
+							<p><strong style="color: red;">"우리"</strong>라는 단어로 함께 보낸 첫 사계절이었어요.</p>
 						</div>
 					</li>
 					<li class="flex-responsive">
@@ -158,7 +158,7 @@
 							<path d="M27.6617245,0 C23.6258225,0 20.1656768,2.45818023 18.6933857,5.95832977 C17.2210947,2.45818023 13.760949,0 9.72542087,0 C4.68979662,0 0.54809007,3.82653606 0.0500982738,8.73093275 C0.0168240472,9.05769313 0,9.38968766 0,9.72542087 C0,21.5418839 14.5015809,27.1188686 18.6933857,35 C22.8851906,27.1192424 37.3867715,21.5422577 37.3867715,9.72542087 C37.3867715,9.38968766 37.3699474,9.05769313 37.3366732,8.73093275 C36.8383076,3.82653606 32.6969749,0 27.6617245,0 Z"></path>
 						</svg>
 						<div class="desc animation-chain" data-animation="fadeIn">
-							<p>힘들고 지쳐도 "미래"를 위해 서로를 믿고 의지</p>
+							<p><strong style="color: red;">"미래"</strong>를 상상하면서 서로 의지하고 사랑했어요.</p>
 						</div>
 					</li>
 					<li class="flex-responsive">
@@ -172,9 +172,7 @@
 							<path d="M27.6617245,0 C23.6258225,0 20.1656768,2.45818023 18.6933857,5.95832977 C17.2210947,2.45818023 13.760949,0 9.72542087,0 C4.68979662,0 0.54809007,3.82653606 0.0500982738,8.73093275 C0.0168240472,9.05769313 0,9.38968766 0,9.72542087 C0,21.5418839 14.5015809,27.1188686 18.6933857,35 C22.8851906,27.1192424 37.3867715,21.5422577 37.3867715,9.72542087 C37.3867715,9.38968766 37.3699474,9.05769313 37.3366732,8.73093275 C36.8383076,3.82653606 32.6969749,0 27.6617245,0 Z"></path>
 						</svg>
 						<div class="desc animation-chain" data-animation="fadeIn">
-							<p>6월. 웃는 모습이 예쁜 진희와</p>
-							<p>그 웃는 얼굴을 유난히도 좋아하는 익선이가 </p>
-							<p>"결혼"을 합니다.</p>
+							<p>6월. 웃는 모습이 예쁜 진희와 그 웃는 얼굴을 유난히도 좋아하는 익선이가 <strong style="color: red;">"결혼"</strong>을 합니다.</p>
 						</div>
 					</li>
 				</ul>
@@ -218,6 +216,8 @@
                         <h5>언제나 함께 웃을 수 있는 부부가 되려 합니다.</h5>
                         <h5>소중한 분들과 함께라면 저희에겐</h5>
                         <h5>더없는 기쁨과 축복이 될 것입니다.</h5>
+						<h4>유강민 김정자의 장남 익선</h4>
+						<h4>박용기 김해련의 장녀 진희</h4>
                     </div>
             </section>
 
@@ -245,7 +245,7 @@
             <div class="separator parallax" data-background-image="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/count.JPG" data-parallax-factor=".8">
                 <div class="flowers"></div>
                 <h2 data-after-countdown="We got married on June 24, 2017.">Counting Down to Our Big Day</h2>
-                <div class="decor"><i class="fa fa-heart-o"></i></div>
+                <div class="decor"><i class="xi-heart-o xi-2x"></i></div>
                 <div class="countdown-area" data-final-date="2017/06/24 14:00:00" data-after-countdown="Thank you for attending our wedding!"></div>
             </div>
 
@@ -312,8 +312,9 @@
 						<div class="widget-box" style="margin-top: 0;">
 							<div class="widget-header">
 								<h4 class="widget-title lighter smaller">
-									<i class="ace-icon fa fa-comment blue"></i>
-									익카오톡
+                                    익카오톡
+									<i class="xi-kakaotalk xi-2x"></i>
+
 								</h4>
 							</div>
 							<div class="widget-body">
@@ -341,7 +342,7 @@
 					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://jinheemarriedikseon.xyz" target="_blank"><i id="facebook-link-btn" class="xi-facebook-official"></i></a></li>
 				</ul>
 				<p>Copyright 2017. All rights reserved.</p>
-				<a href="#hero" class="scroll-link scroll-up"><i class="fa fa-arrow-up"></i></a>
+				<a href="#hero" class="scroll-link scroll-up"><i class="xi-caret-up-circle"></i></a>
 			</footer>
             <script src="/dist/bigday.js"></script>
             <script src="/dist/polyfill.js"></script>
@@ -352,14 +353,14 @@
                 Kakao.init('80e6e2c9c34038d231915cb664a129d5');
                 Kakao.Link.createTalkLinkButton({
                     container: '#kakao-link-btn',
-                    label: '결혼 축하하기',
+                    label: '익선이와 진희의 결혼!',
                     image: {
                         src: 'https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main1pic4.JPG',
                         width: '300',
                         height: '200'
                     },
                     webButton: {
-                        text: '공유',
+                        text: '축하하러 가기',
                         url: 'http://jinheemarriedikseon.xyz'
                     }
                 });
