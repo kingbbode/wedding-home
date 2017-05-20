@@ -20,7 +20,7 @@
 				<link rel="stylesheet" href="/bigday/css/magnific-popup.css">
 				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.carousel.min.css">
 				<link rel="stylesheet" href="/bigday/js/vendor/owl.carousel.2.1.6/assets/owl.theme.default.min.css">
-				<link rel="stylesheet" href="/bigday/css/big-day.css">
+				<link rel="stylesheet" href="/bigday/css/big-day.css?20170520">
 				<link rel="stylesheet" href="/css/chat.css">
             	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xpressengine/xeicon@2.3.1/xeicon.min.css">
 				<script src="/dist/vendor.js"></script>
