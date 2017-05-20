@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 		<head>
 				<meta charset="utf-8">
-				<title>결혼식을 축하주세요!</title>
+				<title>2017.6.24 토 11시 익선♥진희</title>
 				<meta name="description" content="">
 				<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,minimum-scale=1.0,user-scalable=yes,target-densitydpi=medium-dpi" />
 				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -110,7 +110,6 @@
 						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m2.JPG" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m2.JPG" alt="" class="img-as-bg"></a>
 						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m3.JPG" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m3.JPG" alt="" class="img-as-bg"></a>
 						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m4.JPG" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m4.JPG" alt="" class="img-as-bg"></a>
-						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m5.JPG" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m5.JPG" alt="" class="img-as-bg"></a>
 						<a href="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m6.JPG" class="item"><img src="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/m6.JPG" alt="" class="img-as-bg"></a>
 					</div>
 				</div>
@@ -182,9 +181,9 @@
                 <h2>Events</h2>
 			</section>
 
-            <section class="section-hero section-couple" style="border-top: 0;border-bottom: 0;padding-top: 72px;background-color: #FFFFFF">
+            <section class="section-hero section-couple" style="border-top: 0;border-bottom: 0;padding-top: 72px;background-color: #FFFFFF;height: 838px">
                 <div class="flowers"></div>
-                <div class="announcement-wrapper" style="padding-bottom: 100px;">
+                <div class="announcement-wrapper">
                     <div class="announcement animation-chain" data-animation="fadeInUp">
 
                         <div class="decor decor-inverse">
