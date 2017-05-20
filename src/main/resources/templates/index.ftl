@@ -239,7 +239,7 @@
 							<ul class="event-info">
                                 <li><span class="lnr lnr-map-marker"></span>신도림 웨딩시티</li>
 								<li>서울시 구로구 새말로97 신도림 테크노마트 11층 웨딩시티, 그랜드볼룸 홀</li>
-								<li><span class="lnr lnr-clock"></span>2017년 6월 20일 토요일 11시</li>
+								<li><span class="lnr lnr-clock"></span>2017년 6월 24일 토요일 11시</li>
 							</ul>
 							<div class="cta">
 								<a href="http://www.tmwedding.co.kr/page/sub6" target="_blank" class="btn btn-primary">오시는 길 자세히</a>
