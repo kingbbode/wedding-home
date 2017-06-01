@@ -347,8 +347,8 @@
 				<h3>유익선 & 박진희</h3>
 				<ul class="social">
 					<li><a href="javascript:;"><i id="kakao-link-btn" class="xi-kakaotalk"></i></a></li>
-					<li><a href="http://line.me/R/msg/text/?처음 함께한 저녁식사를 또렷이 기억합니다.웃는 모습이 유난히 예쁜 진희.그 웃는 모습을 유난히도 좋아하던 익선.2년 반의 연애를 마치고,언제나 함께 웃을 수 있는 부부가 되려 합니다.소중한 분들과 함께라면 저희에겐더없는 기쁨과 축복이 될 것입니다.\nhttp://jinheemarriedikseon.xyz"><i id="line-link-btn" class="xi-line-messenger"></i></a></li>
-					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://jinheemarriedikseon.xyz" target="_blank"><i id="facebook-link-btn" class="xi-facebook-official"></i></a></li>
+					<li><a href="http://line.me/R/msg/text/?처음 함께한 저녁식사를 또렷이 기억합니다.웃는 모습이 유난히 예쁜 진희.그 웃는 모습을 유난히도 좋아하던 익선.2년 반의 연애를 마치고,언제나 함께 웃을 수 있는 부부가 되려 합니다.소중한 분들과 함께라면 저희에겐더없는 기쁨과 축복이 될 것입니다.\nhttp://jinheemarriedikseon.com"><i id="line-link-btn" class="xi-line-messenger"></i></a></li>
+					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://jinheemarriedikseon.com" target="_blank"><i id="facebook-link-btn" class="xi-facebook-official"></i></a></li>
 				</ul>
 				<p>Copyright 2017. All rights reserved.</p>
 				<a href="#hero" class="scroll-link scroll-up"><i class="xi-caret-up-circle"></i></a>
@@ -370,10 +370,20 @@
                     },
                     webButton: {
                         text: '축하하러 가기',
-                        url: 'http://jinheemarriedikseon.xyz'
+                        url: 'http://jinheemarriedikseon.com'
                     }
                 });
                 //]]>
+            </script>
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-100157042-1', 'auto');
+                ga('send', 'pageview');
+
             </script>
 		</body>
 </html>
