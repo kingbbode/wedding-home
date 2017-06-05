@@ -7,7 +7,7 @@
 				<meta charset="utf-8">
 				<title>2017.6.24 토 11시 익선♥진희</title>
 				<meta name="description" content="">
-				<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,minimum-scale=1.0,user-scalable=yes,target-densitydpi=medium-dpi" />
+				<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,minimum-scale=1.0,user-scalable=yes" />
 				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="og:description" content='처음 함께한 저녁식사를 또렷이 기억합니다.웃는 모습이 유난히 예쁜 진희.그 웃는 모습을 유난히도 좋아하던 익선.2년 반의 연애를 마치고,언제나 함께 웃을 수 있는 부부가 되려 합니다.소중한 분들과 함께라면 저희에겐더없는 기쁨과 축복이 될 것입니다.' />
 				<meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/kingbbode-yis/real/main1pic4.JPG">

@@ -19,8 +19,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
         private final UserDetails ADMIN = new UserDetails() {
 
-            private final String userName = "yyy";
-            private final String password = "kkk";
+            private final String userName = "kingbbode";
+            private final String password = "kingbbode";
 
             @Override
             public Collection<? extends GrantedAuthority> getAuthorities() {
